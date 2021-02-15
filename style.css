@@ -1,0 +1,192 @@
+/*h1 { font-size: 3em; font-weight: bold; margin-top: 0;}*/
+html{
+   font-family: 'Quicksand', sans-serif;   
+}
+
+#header-base{
+   background-color: #3A3A3A;
+   height: 14em;
+}
+
+#header-top{
+   background-color: #97CAEF;
+   height: 65%;
+}
+
+#header-home-hyperlink{
+   float: left;
+   width: 30%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#header-home-hyperlink a{
+   font-size: 2em;
+   font-family: 'Quicksand', sans-serif;
+   text-decoration: none;
+   text-align: center;
+   color: black;
+}
+
+#header-widgets{
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+/*Fine tune icons' alignment with text */
+#header-widgets img{
+   position: relative;
+   top: 0.25em;
+}
+
+#header-widgets ul li{
+   display: inline;
+   font-size: 1.3em;
+   padding-left: 2em;
+}
+
+#header-widgets a{
+   text-decoration: none;
+   color: black;
+}
+
+#header-widgets a:hover{
+   text-decoration: none;
+   font-weight: bold;
+}
+
+/*
+#cart-total-item{
+   font-size: 70%;
+   color: white;
+   padding: 0.2em;
+   position: relative;
+   top: 0.2em;
+   border-radius: 80%;
+   background-color: red;
+   height: 1.2em;
+   width: 1.2em;
+   display: inline-block;
+   
+}
+*/
+
+
+#header-search{
+   background-color: #CAFAFE;
+   height: 35%;
+}
+
+#search-bar{
+   /*
+   position: relative;
+   top: 30%;
+   left: 20%;
+   */
+   padding: 1.5em 8em;
+
+}
+
+#search-bar input[type="text"]::placeholder{
+   font-family: 'Quicksand', sans-serif;
+}
+
+/*Align search bar with button */
+#search-bar input[type="text"], #search-bar button{
+   display: inline;
+   font-size: 1.1em;
+}
+
+#content{
+   background-color: white;
+   height: 50em;
+}
+
+#footer-base{
+   background-color: #97CAEF;
+   height: 15em;
+   color: black;
+}
+
+#footer-top{
+   height: 20%;
+}
+
+#footer-top p{
+   padding: 0.2em;
+}
+
+#footer-middle{
+   height: 60%;
+}
+
+#footer-bottom{
+   height: 20%;
+}
+
+#footer-store-name{
+   text-align: center;
+   font-size: medium;
+}
+
+#footer-store-desc{
+   text-align: center;
+   font-size: small;
+   font-style: italic;
+}
+
+#store-location{
+   float: left;
+   width: 50%;
+   height: 100%;
+}
+
+#store-photo{
+   /*background-color: yellow;*/
+   float: left;
+   width: 40%;
+   height: 100%;
+   text-align: right;
+   padding: 0.3em 0.5em 0.3em 0em;
+}
+
+#address{
+   height: 100%;
+   /*background-color: violet;*/
+   font-size: 0.8em;
+   padding: 2em 0.2em;
+
+}
+
+#contact-info{
+   height: 100%;
+}
+
+#contact-details{
+   /*background-color: beige;*/
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#contact-info ul{
+   list-style-type: none;
+}
+
+#contact-info li{
+   font-size: 0.8em;
+}
+
+#location-title, #contact-title{
+   text-align: center;
+   padding: 0.3em 0em;
+}
+
+#footer-copyright-text{
+   text-align: right;
+   padding: 0.75em;
+}
