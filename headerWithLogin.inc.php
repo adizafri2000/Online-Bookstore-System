@@ -1,50 +1,27 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
-   <div id="topHeaderRow" >
-      <div class="container">
-         <nav class="navbar navbar-inverse " role="navigation">
-            <div class="navbar-header">
-               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-               </button>
-               <p class="navbar-text">Welcome to <strong>Chunchunmaru Bookstore</strong></p>
-            </div>
-
-            <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">
-               <ul class="nav navbar-nav">
-                  <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
-                  <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> Cart</a></li>            
-               </ul>
-            </div>
+<div id="header-base">
+   <div id="header-top">
+      <div id="header-home-hyperlink">
+         <a href="#">Chunchunmaru Bookstore</a>
+      </div>
+      <div id="header-widgets">
+         <nav>
+            <ul>
+               <li><a href="#"><img src="images/icons/user-24.png"> My Account</a></li>
+               <li><a href="#">
+                  <img src="images/icons/cart-24.png"> Cart
+                  <span id="cart-total-item">1</span>
+               </a></li>
+            </ul>
          </nav>
       </div>
-   </div>   
-   
-   <div id="logoRow" >
-      <div class="container">
-         <div class="row">
-            <div class="col-md-8">
-                <h1>Bookstore</h1> 
-            </div>
-            
-
-            <div class="col-md-4">
-               <form class="form-inline" role="search">
-               <div class="input-group">
-                  <label class="sr-only" for="search">Search</label>
-                  <input type="text" class="form-control" placeholder="Search" name="search">
-                  <span class="input-group-btn">
-                  <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
-                  </span>
-               </div>
-               </form> 
-            </div>
-
-                        
-         </div>
-     
-      
-      </div>
    </div>
+   <div id="header-search">
+      <form id="search-bar">
+         <input type="text" size="40" placeholder="Search for book title" name="search">
+         <button type="submit"><img src="images/icons/search-16.png"></button>
+      </form>
+   </div>
+</div>
