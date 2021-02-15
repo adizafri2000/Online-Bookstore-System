@@ -12,7 +12,7 @@
                <li><a href="#"><img src="images/icons/user-24.png"> Sign Up/Login</a></li>
                <li><a href="#">
                   <img src="images/icons/cart-24.png"> Cart
-                  <span id="cart-total-item">1</span>
+                  <span id="cart-total-item"></span>
                </a></li>
             </ul>
          </nav>
