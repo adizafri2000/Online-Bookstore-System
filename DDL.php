@@ -1,63 +1,68 @@
 <?php
+	/*
     //Connect and create new database for system
     $connect = mysqli_connect("localhost","root","");
     $query = "CREATE DATABASE chunchunmaru";
-    $result = mysqli_query($connect,$query);
+    $result = mysqli_query($connect,$query); 
+	*/
 
     //Update connection to database
     $connect = mysqli_connect("localhost","root","","chunchunmaru");
 
     //Create tables
 
-    //user table
-    $query = "CREATE TABLE User(
-        Email VARCHAR(60) NOT NULL PRIMARY KEY,
-        Password VARCHAR(10) NOT NULL,
-        Name VARCHAR(30) NOT NULL,
+    // user table
+    $query = "CREATE TABLE User( 
+        userEmail VARCHAR(100) NOT NULL PRIMARY KEY,
+        userPwd VARCHAR(30) NOT NULL,
+        userName VARCHAR(150) NOT NULL,
         Address TEXT NOT NULL
         )";
     $result = mysqli_query($connect,$query);
     echo ($result ? "Elok je <br>" : "Apa jadi ni <br>");
-    $connect = mysqli_connect("localhost","root","","chunchunmaru");
     
     //admin table
-    $query = "CREATE TABLE ad_min(
-        Email VARCHAR(60) NOT NULL PRIMARY KEY,
-        Pword VARCHAR(10) NOT NULL,
-        Nama VARCHAR(30) NOT NULL,
+    $query = "CREATE TABLE Admin(
+        adminEmail VARCHAR(100) NOT NULL PRIMARY KEY,
+        adminPwd VARCHAR(30) NOT NULL,
+        admiName VARCHAR(150) NOT NULL
         )";
     $result = mysqli_query($connect,$query);
     echo ($result ? "Elok je <br>" : "Apa jadi ni <br>");
 
     //author table
     $query = "CREATE TABLE Author(
-        ID varchar(10) NOT NULL PRIMARY KEY,
-        Nama VARCHAR(30) NOT NULL,
+        authorID varchar(10) NOT NULL PRIMARY KEY,
+        authorName VARCHAR(60) NOT NULL
         )";
     $result = mysqli_query($connect,$query);
 
     //publisher table
     $query = "CREATE TABLE Publisher(
-        ID varchar(10) NOT NULL PRIMARY KEY,
-        Nama VARCHAR(30) NOT NULL,
+        pubID varchar(10) NOT NULL PRIMARY KEY,
+        pubName VARCHAR(150) NOT NULL
         )";
     $result = mysqli_query($connect,$query);
-
+	
+	
     //book table
     $query = "CREATE TABLE Book(
         ISBN INT(13) NOT NULL PRIMARY KEY,
-        Nama VARCHAR(30) NOT NULL,
+		authorID VARCHAR(10),
+		pubID VARCHAR(10),
+        bookName VARCHAR(30) NOT NULL,
         Summary VARCHAR(100),
         Year_Published INT(4) NOT NULL,
         Stock INT NOT NULL,
         Genre VARCHAR(10) NOT NULL,
-        Price DECIMAL(5,2) NOT NULL
-        Author VARCHAR(10) NOT NULL FOREIGN KEY,
-        Publisher VARCHAR(10) NOT NULL FOREIGN KEY,
+        Price DECIMAL(5,2) NOT NULL,
+		FOREIGN KEY (authorID) REFERENCES Author(authorID),
+		FOREIGN KEY (pubID) REFERENCES Publisher(pubID)
         )";
     $result = mysqli_query($connect,$query);
     echo ($result ? "Elok je" : "Apa jadi ni");
-
+	
+	/*
     //Purchase table
     $query = "CREATE TABLE Purchase(
         Email VARCHAR(60) NOT NULL PRIMARY KEY FOREIGN KEY,
@@ -66,7 +71,9 @@
         Total INT NOT NULL,
         Rating INT
         )";
-    $result = mysqli_query($connect,$query);
+	*/
+	
+    $result = mysqli_query($connect,$query); 
 
     mysqli_close($connect);
 ?>
