@@ -1,0 +1,19 @@
+A000000001  J.K Rowling
+A000000002  Natsume Akatsuki
+A000000003  Tappei Nagatsuki
+A000000004  Stephen King
+A000000005  Eoin Coffer
+A000000006  Katie Tsang
+A000000007  Harrison Michelle
+A000000008  Sophie Anderson
+A000000009  Negi Haruba
+A000000010  Reiji Miyajima
+A000000011  Susan Mallery
+A000000012  Hajime Kamoshida
+A000000013  Nora Roberts
+A000000014  Susan Wiggs
+A000000015  Nicholas Sparks
+A000000016
+A000000017
+A000000018
+A000000019
