@@ -22,8 +22,15 @@ P000000021  Hardie Grant Books (US)
 P000000022  Chartwell Books (US)
 P000000023  Cassell (US)
 P000000024  Thorsons (GB)
-P000000025
-P000000026
-P000000027
-P000000028
-P000000029
+P000000025  Angsana Books
+P000000026  Transworld (GB)
+P000000027  Poisoned Pen Pr (US)
+P000000028	Titan Books Ltd (GB)
+P000000029  HARPER US
+P000000030  Holtzbrinck
+P000000031  Chicken Soup for the Soul
+P000000032  RANDOM HOUSE (AUSTRALIA)
+P000000033	Orion Publishing Co (GB)
+P000000034  Little, Brown Book Group (GB)
+P000000035  Quercus Publishing (GB)
+P000000036	Pan Macmillan (GB)
