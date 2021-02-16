@@ -65,15 +65,15 @@
 	
     //Purchase table
     $query = "CREATE TABLE Purchase(
-        Email VARCHAR(60) NOT NULL,
+        userEmail VARCHAR(100) NOT NULL,
         ISBN INT(13) NOT NULL,
         Date_Purchased DATE NOT NULL,
         Total INT NOT NULL,
         Rating INT,
-        PRIMARY KEY (Email,ISBN),
-        FOREIGN KEY (Email) REFERENCES user (Email),
+        PRIMARY KEY (userEmail,ISBN),
+        FOREIGN KEY (userEmail) REFERENCES user (userEmail),
         FOREIGN KEY (ISBN) REFERENCES book (ISBN)
-        )";
+    )";
 	
 	
     $result = mysqli_query($connect,$query); 

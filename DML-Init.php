@@ -1,7 +1,7 @@
 <?php
 
     //Init connection to DB
-    $connect = mysqli_connect("localhost","root","","my_db");
+    $connect = mysqli_connect("localhost","root","","chunchunmaru");
 
     //User insertion
     $query = "INSERT INTO User (userEmail, userPwd, userName,Address) 
@@ -47,7 +47,7 @@
     $query = "INSERT INTO Admin (adminEmail, adminPwd, admiName) 
         VALUES(
             'iffah@gmail.com',
-            'iffahadmin',
+            '1181101285',
             'Iffah Admin')";
     $result = mysqli_query($connect,$query);
 
@@ -420,6 +420,7 @@
             'Alex Pavesi')";
     $result = mysqli_query($connect,$query);
 
+    //Publisher insertion
     $query = "INSERT INTO Publisher (pubID, pubName) 
         VALUES(
             'P000000001',
@@ -635,4 +636,926 @@
             'P000000036',
             'Pan Macmillan (GB)')";
     $result = mysqli_query($connect,$query);
+
+    //Book insertion
+
+    
+    //Cooking
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            9789814828604,
+            'A000000016',
+            'P000000013',
+            'Creative Baking: Macaron Basics (Creative Baking Series)',
+            'Creative Baking: Macaron Basics is a companion title to Phay Shing\'s first title, Creative Baking: Macaron, and is a guide to mastering the basic techniques of making decorated macarons.',
+            2019,
+            5,
+            'Cooking',
+            69.90)";
+    $result = mysqli_query($connect,$query);
+
+    
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Cooking',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    //Fantasy
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Fantasy',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    //Health
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Health',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    //Horror
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    //Romance
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    //Self-Help
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    //Thriller
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            ,
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+    
 ?>
