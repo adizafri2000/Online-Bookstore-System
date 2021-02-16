@@ -1,3 +1,15 @@
+Cooking
+9789814828604 https://mphonline.com/collections/cake-decorating-baking/products/creative-baking-macaron-basics-creative-baking-series
+9789674151850 https://mphonline.com/collections/cookery-malaysia/products/goo-chui-hoongs-lite-malaysian-favourites-mph-masterclass-series
+9789814779814 https://mphonline.com/collections/cookery-malaysia/products/the-best-of-chef-wan-a-taste-of-malaysia-volume-1
+9780600623595 https://mphonline.com/collections/cookery-western/products/hamlyn-quickcook-family-meals
+9780399579851 https://malaysia.kinokuniya.com/bw/9780399579851
+9780393089042 https://malaysia.kinokuniya.com/bw/9780393089042
+9780241455159 https://malaysia.kinokuniya.com/bw/9780241455159
+9780241431153 https://malaysia.kinokuniya.com/bw/9780241431153
+9781607742739 https://malaysia.kinokuniya.com/bw/9781607742739
+9780241453124 https://malaysia.kinokuniya.com/bw/9780241453124
+
 Fantasy
 9781408855690 https://mphonline.com/collections/fantasy-1/products/harry-potter-and-the-order-of-the-phoenix-3
 9781408855713 https://mphonline.com/collections/fantasy-1/products/harry-potter-and-the-deathly-hallows-3
@@ -10,6 +22,18 @@ Fantasy
 9781471183867 https://mphonline.com/collections/fantasy-1/products/a-sprinkle-of-sorcery
 9781474978491 https://mphonline.com/collections/fantasy-1/products/the-castle-of-tangled-magic
 
+Health
+9789674154400 https://mphonline.com/collections/health-lifestyle/products/tips-on-using-common-medicines-safely
+9781509852505 https://mphonline.com/collections/health-lifestyle/products/how-not-to-die-uk
+9780062309815 https://mphonline.com/collections/health-lifestyle/products/the-beauty-diet
+9781846045714 https://mphonline.com/collections/health-lifestyle/products/the-healing-self
+9781743795965 https://malaysia.kinokuniya.com/bw/9781743795965
+9780141978611 https://malaysia.kinokuniya.com/bw/9780141978611
+9780785838302 https://malaysia.kinokuniya.com/bw/9780785838302
+9780241426289 https://malaysia.kinokuniya.com/bw/9780241426289
+9781788401661 https://malaysia.kinokuniya.com/bw/9781788401661
+9780008436209 https://malaysia.kinokuniya.com/bw/9780008436209
+
 Romance
 9781632367747 https://malaysia.kinokuniya.com/bw/9781632367747
 9781632369970 https://malaysia.kinokuniya.com/bw/9781632369970
@@ -21,3 +45,5 @@ Romance
 9781335897978 https://mphonline.com/collections/romance/products/the-macgregor-brides-macgregors
 9780062425546 https://mphonline.com/collections/romance/products/between-you-and-me
 9781538737156 https://mphonline.com/collections/romance/products/the-return
+
+Horror

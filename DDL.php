@@ -50,7 +50,7 @@
         ISBN INT(13) NOT NULL PRIMARY KEY,
 		authorID VARCHAR(10),
 		pubID VARCHAR(10),
-        bookName VARCHAR(30) NOT NULL,
+        bookName VARCHAR(60) NOT NULL,
         Summary VARCHAR(100),
         Year_Published INT(4) NOT NULL,
         Stock INT NOT NULL,
@@ -70,9 +70,9 @@
         Date_Purchased DATE NOT NULL,
         Total INT NOT NULL,
         Rating INT,
-    PRIMARY KEY (Email,ISBN),
-    FOREIGN KEY (Email) REFERENCES user (Email),
-    FOREIGN KEY (ISBN) REFERENCES book (ISBN)
+        PRIMARY KEY (Email,ISBN),
+        FOREIGN KEY (Email) REFERENCES user (Email),
+        FOREIGN KEY (ISBN) REFERENCES book (ISBN)
         )";
 	
 	
