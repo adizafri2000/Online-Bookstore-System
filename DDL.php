@@ -1,10 +1,10 @@
 <?php
-	/*
+	
     //Connect and create new database for system
     $connect = mysqli_connect("localhost","root","");
     $query = "CREATE DATABASE chunchunmaru";
     $result = mysqli_query($connect,$query); 
-	*/
+	
 
     //Update connection to database
     $connect = mysqli_connect("localhost","root","","chunchunmaru");
@@ -62,16 +62,19 @@
     $result = mysqli_query($connect,$query);
     echo ($result ? "Elok je" : "Apa jadi ni");
 	
-	/*
+	
     //Purchase table
     $query = "CREATE TABLE Purchase(
-        Email VARCHAR(60) NOT NULL PRIMARY KEY FOREIGN KEY,
-        ISBN INT(13) NOT NULL PRIMARY KEY FOREIGN KEY,
+        Email VARCHAR(60) NOT NULL,
+        ISBN INT(13) NOT NULL,
         Date_Purchased DATE NOT NULL,
         Total INT NOT NULL,
-        Rating INT
+        Rating INT,
+    PRIMARY KEY (Email,ISBN),
+    FOREIGN KEY (Email) REFERENCES user (Email),
+    FOREIGN KEY (ISBN) REFERENCES book (ISBN)
         )";
-	*/
+	
 	
     $result = mysqli_query($connect,$query); 
 
