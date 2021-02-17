@@ -35,81 +35,20 @@
          </div>
 
          <div id="book-promotion">
-            <div id="promotion">
-               <div id="genre-title">
-                  <p>Let your imagination run wild!</p>
-               </div>
-               <div id="book-space">
-                  <div id="book1">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-                  <div id="book2">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-                  <div id="book3">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-               </div>
-            </div>
-            <div id="promotion">
-               <div id="genre-title">
-                  <p>Let your imagination run wild!</p>
-               </div>
-               <div id="book-space">
-                  <div id="book1">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-                  <div id="book2">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-                  <div id="book3">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-               </div>
-            </div>
-            <div id="promotion">
-               <div id="genre-title">
-                  <p>Let your imagination run wild!</p>
-               </div>
-               <div id="book-space">
-                  <div id="book1">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-                  <div id="book2">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-                  <div id="book3">
-                     <figure>
-                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
-                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
-                     </figure>
-                  </div>
-               </div>
-            </div>
+            <?php 
+               $promotions = ["promotion-cooking.php","promotion-fantasy.php","promotion-health.php","promotion-horror.php","promotion-romance.php","promotion-self-help.php","promotion-thriller.php"];
+               $index = rand(0,6);
+               if($index+3>6){
+                  include $promotions[$index--];
+                  include $promotions[$index--];
+                  include $promotions[$index];
+               }
+               else{
+                  include $promotions[$index++];
+                  include $promotions[$index++];
+                  include $promotions[$index];
+               }
+            ?>
          </div>
       </div>
       <footer><?php include "footer.inc.php";?></footer>
