@@ -47,11 +47,11 @@
 	
     //book table
     $query = "CREATE TABLE Book(
-        ISBN INT(13) NOT NULL PRIMARY KEY,
+        ISBN VARCHAR(13) NOT NULL PRIMARY KEY,
 		authorID VARCHAR(10),
 		pubID VARCHAR(10),
         bookName VARCHAR(60) NOT NULL,
-        Summary VARCHAR(100),
+        Summary TEXT,
         Year_Published INT(4) NOT NULL,
         Stock INT NOT NULL,
         Genre VARCHAR(10) NOT NULL,
@@ -66,7 +66,7 @@
     //Purchase table
     $query = "CREATE TABLE Purchase(
         userEmail VARCHAR(100) NOT NULL,
-        ISBN INT(13) NOT NULL,
+        ISBN VARCHAR(13) NOT NULL,
         Date_Purchased DATE NOT NULL,
         Total INT NOT NULL,
         PRIMARY KEY (userEmail,ISBN),
@@ -77,7 +77,7 @@
     //Rating table
 	$query = "CREATE TABLE Rating(
         userEmail VARCHAR(100) NOT NULL,
-        ISBN INT(13) NOT NULL,
+        ISBN VARCHAR(13) NOT NULL,
         Rating INT,
         PRIMARY KEY (userEmail,ISBN),
         FOREIGN KEY (userEmail) REFERENCES user (userEmail),

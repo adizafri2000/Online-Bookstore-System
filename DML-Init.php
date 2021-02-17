@@ -657,119 +657,119 @@
     
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9789674151850,
+            'A000000017',
+            'P000000014',
+            'Goo Chui Hoong\'s Lite Malaysian Favourites (MPH Masterclass Series)',
+            'Lite Malaysian Favourites shows how easy it is to eat healthily. Some of the recipes in this book are dishes commonly found at hawker stalls or restaurants which have been given a twist to make them healthier.',
+            2014,
+            1,
             'Cooking',
-            )";
+            39.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9789814779814,
+            'A000000018',
+            'P000000013',
+            'The Best of Chef Wan: A Taste of Malaysia (Volume 1)',
+            'Malaysia\'s Culinary Ambassador and Asia\'s most notable chef, Chef Wan shares more than 60 of his favourite Asian recipes in his book, The Best of Chef Wan Volume 1.',
+            2007,
+            7,
             'Cooking',
-            )";
+            59.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9780600623595,
+            'A000000019',
+            'P000000015',
+            'Hamlyn QuickCook: Family Meals',
+            'Family Meals offers the perfect alternative to dinner in front of the TV by showing you how to use limited ingredients, simple methods and minimal time to create delicious and healthy family meals.',
+            2013,
+            2,
             'Cooking',
-            )";
+            25.00)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9780399579851,
+            'A000000020',
+            'P000000016',
+            'World Food Mexico City : Heritage Recipes for Classic Home Cooking',
+            '75 recipes, evocative storytelling, and beautiful photography provide a lens into one of the planet\'s most interesting culinary destinations: Mexico City',
+            2020,
+            9,
             'Cooking',
-            )";
+            119.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9780393089042,
+            'A000000021',
+            'P000000017',
+            'Every Grain of Rice : Simple Chinese Home Cooking',
+            'A culinary reference features southern Chinese recipes, shares a comprehensive introduction to key seasonings and techniques, and offers such options as smoky eggplant with garlic, twice-cooked pork, and emergency midnight noodles.',
+            2013,
+            11,
             'Cooking',
-            )";
+            185.42)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9780241455159,
+            'A000000022',
+            'P000000018',
+            'What Mummy Makes : Cook Just Once for You and Your Baby',
+            'SUNDAY TIMES BESTSELLER Wordery's Book of The Year 2020: Food and Drink - WINNER 130+ recipes all suitable from 6 months old Wean your baby and feed your family at the same time by cooking just one meal in under 30 minutes that everyone will enjoy! Say goodbye to cooking multiple meals every day and the faff of making special little spoonfuls for your baby, plainer dishes for fussy older siblings, and something different again for the grown-ups.',
+            2020,
+            5,
             'Cooking',
-            )";
+            86.95)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9780241431153,
+            'A000000023',
+            'P000000019',
+            '7 Ways : Easy Ideas for Every Day of the Week',
+            'Make everyday meals more exciting with the brand-new No. 1 bestselling cookbook, featuring 120 exciting and tasty new recipes, including recipes from Jamie's hit Channel 4 TV show Keep Cooking Family Favourites',
+            2020,
+            7,
             'Cooking',
-            )";
+            150.95)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9781607742739,
+            'A000000024',
+            'P000000016',
+            'Flour Water Salt Yeast : The Fundamentals of Artisan Bread and Pizza',
+            'In Flour Water Salt Yeast, author Ken Forkish demonstrates that high-quality artisan bread and pizza is within the reach of any home baker. Whether it\'s a basic straight dough, dough made with a pre-ferment, or complex levain, each of Forkish\'s impeccable recipes yields exceptional results.',
+            2012,
+            9,
             'Cooking',
-            )";
+            159.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            9780241453124,
+            'A000000025',
+            'P000000019',
+            'Meal Prep King Plan : Save time. Lose weight. Eat the meals you love',
+            'Lose weight for good with great-tasting, easy-to-cook recipes from The Meal Prep King Plan Together, John and Charlotte have lost an incredible 15-stone, and they are here to show you how to lose weight and feel your best - the easy way.',
+            2020,
+            8,
             'Cooking',
-            )";
+            116.00)";
     $result = mysqli_query($connect,$query);
 
     //Fantasy
