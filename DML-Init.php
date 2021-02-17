@@ -267,7 +267,7 @@
     $query = "INSERT INTO Author (authorID, authorName) 
         VALUES(
             'A000000034',
-            'Neal's Yard Remedies')";
+            'Neal\'s Yard Remedies')";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Author (authorID, authorName) 
@@ -726,7 +726,7 @@
             'A000000022',
             'P000000018',
             'What Mummy Makes : Cook Just Once for You and Your Baby',
-            'SUNDAY TIMES BESTSELLER Wordery's Book of The Year 2020: Food and Drink - WINNER 130+ recipes all suitable from 6 months old Wean your baby and feed your family at the same time by cooking just one meal in under 30 minutes that everyone will enjoy! Say goodbye to cooking multiple meals every day and the faff of making special little spoonfuls for your baby, plainer dishes for fussy older siblings, and something different again for the grown-ups.',
+            'SUNDAY TIMES BESTSELLER Wordery\'s Book of The Year 2020: Food and Drink - WINNER 130+ recipes all suitable from 6 months old Wean your baby and feed your family at the same time by cooking just one meal in under 30 minutes that everyone will enjoy! Say goodbye to cooking multiple meals every day and the faff of making special little spoonfuls for your baby, plainer dishes for fussy older siblings, and something different again for the grown-ups.',
             2020,
             5,
             'Cooking',
@@ -739,7 +739,7 @@
             'A000000023',
             'P000000019',
             '7 Ways : Easy Ideas for Every Day of the Week',
-            'Make everyday meals more exciting with the brand-new No. 1 bestselling cookbook, featuring 120 exciting and tasty new recipes, including recipes from Jamie's hit Channel 4 TV show Keep Cooking Family Favourites',
+            'Make everyday meals more exciting with the brand-new No. 1 bestselling cookbook, featuring 120 exciting and tasty new recipes, including recipes from Jamie\'s hit Channel 4 TV show Keep Cooking Family Favourites',
             2020,
             7,
             'Cooking',
@@ -1001,7 +1001,7 @@
             'A000000034',
             'P000000018',
             'Neal\'s Yard Remedies Healing Herbs: Treat Yourself Naturally with Homemade Herbal Remedies',
-            'Find your route to natural wellness with Neal\'s Yard Remedies\' expert guide to using medicinal herbs. Neal\'s Yard Remedies Healing Herbs offers expert advice and know-how you can trust in this detailed guide, which features an illustrated directory of 100 key herbs, including hemp, lavender, thyme, aloe vera, and lemongrass.',
+            'Find your route to natural wellness with Neal\'s Yard Remedies\' expert guide to using medicinal herbs.',
             2020,
             11,
             'Health',
@@ -1299,263 +1299,263 @@
     //Self-Help
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780061125898',
+            'A000000042',
+            'P000000029',
+            'THE MONK WHO SOLD HIS FERRARI',
+            'An internationally bestselling fable about a spiritual journey, littered with powerful life lessons that teach us how to abandon consumerism in order to embrace destiny, live life to the full and discover joy.',
+            2014,
+            8,
             'Self-Help',
-            )";
+            34.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781847391469',
+            'A000000043',
+            'P000000005',
+            'The 8th Habit: From Effectiveness to Greatness',
+            'In the 7 Habits series, international bestselling author Stephen R. Covey showed us how to become as effective as it is possible to be. In his long-awaited new book, The 8th Habit, he opens up an entirely new dimension of human potential, and shows us how to achieve greatness in any position and any venue.',
+            2019,
+            1,
             'Self-Help',
-            )";
+            49.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781529391077',
+            'A000000044',
+            'P000000003',
+            'The Art of Reading Minds',
+            'In this book, the author demonstrates how to understand other people and what they are thinking of, by observing their behaviour.',
+            2020,
+            12,
             'Self-Help',
-            )";
+            58.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781250624888',
+            'A000000045',
+            'P000000030',
+            'The Science of Getting Rich',
+            'Understand the mechanics and how the world acts in a way that a person could get riches.',
+            2020,
+            9,
             'Self-Help',
-            )";
+            54.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781935096351',
+            'A000000046',
+            'P000000031',
+            'Chicken Soup for the Soul: Tough Times, Tough People',
+            'Tough times won\'t last, but tough people will. Many people have lost money and many are losing their jobs, homes, or at least making cutbacks. Many others have faced life-changing natural disasters, such as hurricanes and fires, as well as health and family difficulties Chicken Soup for the Soul: Tough Times, Tough People is all about overcoming adversity, pulling together, making do with less, facing challenges, and finding new joys in a simpler life.',
+            2017,
+            1,
             'Self-Help',
-            )";
+            59.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780671791544',
+            'A000000047',
+            'P000000005',
+            'AWAKEN THE GIANT WITHIN',
+            'The acknowledged expert in the psychology of change, Anthony Robbins provides a step-by-step program teaching the fundamental lessons of self-mastery that will enable you to discover your true purpose, take control of your life and harness the forces that shape your destiny.',
+            2019,
+            6,
             'Self-Help',
-            )";
+            59.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780062912893',
+            'A000000046',
+            'P000000011',
+            'The Success Principles Workbook',
+            'Jack Canfield shares tips and lifestyles of successful people.',
+            2020,
+            1,
             'Self-Help',
-            )";
+            109.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781785042416',
+            'A000000048',
+            'P000000020',
+            'Think And Grow Rich',
+            'This book provides tips on creating and maintaining sustainable wealth.',
+            2015,
+            5,
             'Self-Help',
-            )";
+            62.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781785042409',
+            'A000000049',
+            'P000000020',
+            'How to Win Friends and Influence People',
+            'Capture the interests of your freinds and other people with this book.',
+            2013,
+            10,
             'Self-Help',
-            )";
+            62.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780735278516',
+            'A000000050',
+            'P000000032',
+            '12 Rules for Life: An Antidote to Chaos',
+            'Follow Jordan Peterson as he guides readers on the dos and don\'ts of life',
+            2020,
+            8,
             'Self-Help',
-            )";
+            61.50)";
     $result = mysqli_query($connect,$query);
 
     //Thriller
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780241433577',
+            'A000000059',
+            'P000000019',
+            'Eight Detectives',
+            'Grant McAllister, an author of crime fiction and professor of mathematics, once sat down and worked them all out. But that was thirty years ago. Now he\'s living a life of seclusion on a quiet Mediterranean island - until Julia Hart, a sharp, ambitious editor, knocks on his door. His early work is being republished and together the two of them must revisit those old stories: an author, hiding from his past, and an editor, keen to understand it. But as she reads, Julia is unsettled to realise that there are things in the stories that don\'t make sense. Intricate clues that seem to reference a real murder, one that\'s remained unsolved for thirty years.',
+            2020,
+            2,
             'Thriller',
-            )";
+            75.50)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781529349900',
+            'A000000051',
+            'P000000003',
+            'Camino Winds',
+            'The exceptional new thriller from bestselling author John Grisham.',
+            2021,
+            4,
             'Thriller',
-            )";
+            42.50)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781408821985',
+            'A000000052',
+            'P000000001',
+            'Song of Achilles',
+            'A breathtakingly original rendering of the Trojan War - a devastating love story and a tale of gods and kings, immortal fame and the human heart.',
+            2012,
+            1,
             'Thriller',
-            )";
+            58.64)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781409181637',
+            'A000000053',
+            'P000000033',
+            'Silent Patient',
+            'With film rights snapped up by an Oscar winning Hollywood production company, rights sold in a world record 43 territories, and rave blurbs from David Baldacci, Lee Child and A.J. Finn, The Silent Patient is the international, multimillion-copy bestseller that you need to read this year.',
+            2019,
+            10,
             'Thriller',
-            )";
+            52.75)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780241425442',
+            'A000000054',
+            'P000000019',
+            'Thursday Murder Club',
+            'In a peaceful retirement village, four unlikely friends meet up once a week to investigate unsolved murders. But when a brutal killing takes place on their very doorstep, the Thursday Murder Club find themselves in the middle of their first live case.',
+            2020,
+            4,
             'Thriller',
-            )";
+            81.89)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781472131942',
+            'A000000055',
+            'P000000034',
+            'Curator',
+            'A dark and twisted crime novel, this is the eagerly anticipated follow up to The Puppet Show and Black Summer.',
+            2020,
+            6,
             'Thriller',
-            )";
+            45.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781787633629',
+            'A000000056',
+            'P000000026',
+            'The Sentinel',
+            'No one\'s bigger than Jack Reacher. Jack Reacher gets off the bus in a sleepy no-name town outside Nashville, Tennessee. He plans to grab a cup of coffee and move right along. Not going to happen. The town has been shut down by a cyber attack. At the centre of it all, whether he likes it or not, is Rusty Rutherford. He is an average IT guy, but he knows more than he thinks',
+            2020,
+            5,
             'Thriller',
-            )";
+            73.91)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781529401424',
+            'A000000057',
+            'P000000035',
+            'Dear Child',
+            'Room meets Gone Girl in this page-turning thriller from one of Germany\'s hottest new talents.',
+            2020,
+            3,
             'Thriller',
-            )";
+            79.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781529039108',
+            'A000000058',
+            'P000000036',
+            'Last Trial',
+            'Sandy Stern takes on his last trial in this scintillating courtroom thriller.',
+            2021,
+            12,
             'Thriller',
-            )";
+            49.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781529342321',
+            'A000000051',
+            'P000000003',
+            'Time for Mercy',
+            'The incredible new thriller from international bestseller John Grisham.',
+            2020,
+            5,
             'Thriller',
-            )";
+            89.21)";
     $result = mysqli_query($connect,$query);
     
 ?>
