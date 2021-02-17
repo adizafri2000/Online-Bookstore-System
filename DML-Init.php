@@ -1558,4 +1558,52 @@
             89.21)";
     $result = mysqli_query($connect,$query);
     
+    //Purchase table
+    $query = "INSERT INTO Purchase (userEmail,ISBN,Date_Purchased,Total)
+        VALUES(
+            '1181101286@student.mmu.edu.my',
+            '9780316552561',
+            '2021-1-15',
+            1)";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Purchase (userEmail,ISBN,Date_Purchased,Total)
+        VALUES(
+            '1181101286@student.mmu.edu.my',
+            '9780399579851',
+            '2021-1-15',
+            3)";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Purchase (userEmail,ISBN,Date_Purchased,Total)
+        VALUES(
+            '1181101285@student.mmu.edu.my',
+            '9780399579851',
+            '2021-1-15',
+            2)";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Purchase (userEmail,ISBN,Date_Purchased,Total)
+        VALUES(
+            '1181102427@student.mmu.edu.my',
+            '9781632367747',
+            '2021-1-15',
+            2)";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Purchase (userEmail,ISBN,Date_Purchased,Total)
+        VALUES(
+            '1181101444@student.mmu.edu.my',
+            '9781846045714',
+            '2021-1-15',
+            2)";
+    $result = mysqli_query($connect,$query);
+
+    //Rating table
+    $query = "INSERT INTO Rating (userEmail,ISBN,Rating)
+        VALUES(
+            '1181101286@student.mmu.edu.my',
+            '9780316552561',
+            5)";
+    $result = mysqli_query($connect,$query);
 ?>

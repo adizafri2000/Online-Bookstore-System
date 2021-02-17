@@ -73,6 +73,7 @@
         FOREIGN KEY (userEmail) REFERENCES user (userEmail),
         FOREIGN KEY (ISBN) REFERENCES book (ISBN)
     )";
+    $result = mysqli_query($connect,$query);
 
     //Rating table
 	$query = "CREATE TABLE Rating(
