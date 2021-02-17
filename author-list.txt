@@ -31,7 +31,7 @@ A000000030  Deepak Chopra
 A000000031  Luigi Fontana
 A000000032  Bessel van der Kolk
 A000000033  Kiki Ely
-A000000034  Neal's Yard Remedies
+A000000034  Neal\'s Yard Remedies
 A000000035  Lilin Yang
 A000000036  Jason Fung
 A000000037  James Lee

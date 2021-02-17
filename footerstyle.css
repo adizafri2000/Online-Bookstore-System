@@ -1,0 +1,86 @@
+
+
+#footer-base{
+    background-color: #97CAEF;
+    height: 15em;
+    color: black;
+ }
+ 
+ #footer-top{
+    height: 20%;
+ }
+ 
+ #footer-top p{
+    padding: 0.2em;
+ }
+ 
+ #footer-middle{
+    height: 60%;
+ }
+ 
+ #footer-bottom{
+    height: 20%;
+ }
+ 
+ #footer-store-name{
+    text-align: center;
+    font-size: medium;
+ }
+ 
+ #footer-store-desc{
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+ }
+ 
+ #store-location{
+    float: left;
+    width: 50%;
+    height: 100%;
+ }
+ 
+ #store-photo{
+    /*background-color: yellow;*/
+    float: left;
+    width: 40%;
+    height: 100%;
+    text-align: right;
+    padding: 0.3em 0.5em 0.3em 0em;
+ }
+ 
+ #address{
+    height: 100%;
+    /*background-color: violet;*/
+    font-size: 0.8em;
+    padding: 2em 0.2em;
+ 
+ }
+ 
+ #contact-info{
+    height: 100%;
+ }
+ 
+ #contact-details{
+    /*background-color: beige;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ 
+ #contact-info ul{
+    list-style-type: none;
+ }
+ 
+ #contact-info li{
+    font-size: 0.8em;
+ }
+ 
+ #location-title, #contact-title{
+    text-align: center;
+    padding: 0.3em 0em;
+ }
+ 
+ #footer-copyright-text{
+    text-align: right;
+    padding: 0.75em;
+ }

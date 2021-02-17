@@ -5,14 +5,57 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Chunchunmaru Bookstore</title>
 
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
       <link href="reset.css" rel="stylesheet">
-      <link href="style.css" rel="stylesheet">
+      <link href="homestyle.css" rel="stylesheet">
    </head>
 
    <body>
       <header><?php include "headerNoLogin.inc.php"; ?></header>
       <div id="content">
-         <div class="tenor-gif-embed" data-postid="20240943" data-share-method="host" data-width="40%" data-aspect-ratio="1.6711409395973154"><a href="https://tenor.com/view/konksuba-megumin-gif-20240943">Konksuba Megumin GIF</a> from <a href="https://tenor.com/search/konksuba-gifs">Konksuba GIFs</a></div><script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+         <div id="genre-navigation">
+            <div id="genre-bar">
+               <div id="bar-header">
+                  <p>Browse by genre</p>
+               </div>
+               <div id="bar-contents">
+                  <ul>
+                     <li><a href="#">Cooking</a></li>
+                     <li><a href="#">Fantasy</a></li>
+                     <li><a href="#">Horror</a></li>
+                     <li><a href="#">Romance</a></li>
+                     <li><a href="#">Health</a></li>
+                     <li><a href="#">Self-Help</a></li>
+                     <li><a href="#">Thriller</a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+         <div id="book-promotion">
+            <div id="promotion1">
+               <div id="genre-title">
+
+               </div>
+               <div id="genre-book-space">
+                  <div id="book1">
+
+                  </div>
+                  <div id="book2">
+
+                  </div>
+                  <div id="book3">
+
+                  </div>
+               </div>
+            </div>
+            <div id="promotion2">
+               
+            </div>
+            <div id="promotion3">
+               
+            </div>
+         </div>
       </div>
       <footer><?php include "footer.inc.php";?></footer>
    </body>

@@ -1,0 +1,76 @@
+html{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#content{
+    background-color: white;
+    height: 100em;
+}
+
+#genre-navigation{
+    float: left;
+    width: 25%;
+    height: 100%;
+    background-color: green;
+}
+
+#genre-bar{
+    background-color: #bcd4e6;
+    border: 2px solid #708090;
+    margin: 3em 1em;
+}
+
+#bar-header{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-bottom: inherit;
+}
+
+#bar-contents{
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 1em;
+}
+
+li{
+    padding-bottom: 1em;
+}
+
+#bar-contents a{
+    text-decoration: none;
+    color: black;
+}
+
+#bar-contents a:hover{
+    font-weight: bold;
+}
+
+#book-promotion{
+    height: 100%;
+    background-color: red;
+}
+
+#promotion1{
+    background-color: purple;
+    width: 100%;
+    height: 30%;
+    margin: 5em;
+}
+
+#promotion2{
+    background-color: yellow;
+    width: 100%;
+    height: 30%;
+    margin: 5em 2em;
+}
+
+#promotion3{
+    background-color: pink;
+    width: 100%;
+    height: 30%;
+    margin: 5em 2em;
+}

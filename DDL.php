@@ -29,35 +29,18 @@
         )";
     $result = mysqli_query($connect,$query);
     echo ($result ? "Elok je <br>" : "Apa jadi ni <br>");
-
-    //author table
-    $query = "CREATE TABLE Author(
-        authorID varchar(10) NOT NULL PRIMARY KEY,
-        authorName VARCHAR(60) NOT NULL
-        )";
-    $result = mysqli_query($connect,$query);
-
-    //publisher table
-    $query = "CREATE TABLE Publisher(
-        pubID varchar(10) NOT NULL PRIMARY KEY,
-        pubName VARCHAR(150) NOT NULL
-        )";
-    $result = mysqli_query($connect,$query);
-	
 	
     //book table
     $query = "CREATE TABLE Book(
         ISBN VARCHAR(13) NOT NULL PRIMARY KEY,
-		authorID VARCHAR(10),
-		pubID VARCHAR(10),
+		authorName VARCHAR(60) NOT NULL,
+		pubName VARCHAR(150) NOT NULL,
         bookName VARCHAR(100) NOT NULL,
         Summary TEXT,
         Year_Published INT(4) NOT NULL,
         Stock INT NOT NULL,
         Genre VARCHAR(10) NOT NULL,
-        Price DECIMAL(5,2) NOT NULL,
-		FOREIGN KEY (authorID) REFERENCES Author(authorID),
-		FOREIGN KEY (pubID) REFERENCES Publisher(pubID)
+        Price DECIMAL(5,2) NOT NULL
         )";
     $result = mysqli_query($connect,$query);
     echo ($result ? "Elok je" : "Apa jadi ni");
