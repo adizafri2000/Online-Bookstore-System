@@ -12,26 +12,23 @@
    </head>
 
    <body>
-      <header><?php include "headerNoLogin.inc.php"; ?></header>
+      <header><?php if (empty($_POST)) include "headerNoLogin.inc.php";
+                     else{
+                        $match = false;
+                        $connect = mysqli_connect("localhost","root","","chunchunmaru");
+                        $query = "select userEmail,userPwd from user where
+                                    userEmail='".$_POST["userEmail"].
+                                    "' and userPwd='".$_POST["userPwd"]."'";
+                        $result = mysqli_query($connect,$query);
+                        if ($result)
+                           include "headerWithLogin.inc.php";
+                        else
+                           include "headerNoLogin.inc.php";
+                     } 
+         ?></header>
       <div id="content">
          <div id="genre-navigation">
-            
-            <div id="genre-bar">
-               <div id="bar-header">
-                  <p>Browse by genre</p>
-               </div>
-               <div id="bar-contents">
-                  <ul>
-                     <li><a href="#">Cooking</a></li>
-                     <li><a href="#">Fantasy</a></li>
-                     <li><a href="#">Horror</a></li>
-                     <li><a href="#">Romance</a></li>
-                     <li><a href="#">Health</a></li>
-                     <li><a href="#">Self-Help</a></li>
-                     <li><a href="#">Thriller</a></li>
-                  </ul>
-               </div>
-            </div>
+            <?php include "genre-navigation-bar.php";?>
          </div>
 
          <div id="book-promotion">

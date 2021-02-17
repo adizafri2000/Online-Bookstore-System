@@ -1,0 +1,43 @@
+html{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#login-form-area{
+    border: 2px solid black;
+    width: 30em;
+    height: 20em;
+    margin: 7em auto;
+}
+
+#form-title{
+    font-size: 1em;
+    text-align: center;
+    height: 2em;
+    padding: 1em;
+}
+
+#real-form{
+    padding: 1em;
+}
+
+#real-form form{
+    width: 20em;
+    height: 10em;
+    margin: auto;
+}
+
+#real-form form input{
+    margin: 0.5em;
+}
+
+#signuptext{
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+}
+
+#signuptext a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}

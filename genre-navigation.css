@@ -1,0 +1,52 @@
+html{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#genre-navigation{
+    float: left;
+    width: 18em;
+    height: 40em;
+}
+
+
+#genre-bar{
+    background-color: #bcd4e6;
+    border: 2px solid #708090;
+    margin: 3em 1em;
+}
+
+#bar-header{
+    text-align: center;
+    font-size: 1.2em;
+    padding: 0.5em;
+    border-bottom: inherit;
+}
+
+#bar-contents{
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+    padding: 1em;
+}
+
+li{
+    padding-bottom: 1em;
+}
+
+#bar-contents a{
+    text-decoration: none;
+    color: black;
+}
+
+#bar-contents a:hover{
+    font-weight: bold;
+}
+
+#book-promotion{
+    float: left;
+    width: 50em;
+    height: 75em;
+    margin: 2em 0em 0em 4em;
+}
