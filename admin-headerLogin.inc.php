@@ -5,7 +5,7 @@
 <div id="header-base">
    <div id="header-top">
       <div id="header-home-hyperlink">
-         <a href="#">Chunchunmaru Bookstore</a>
+         <a href="homeNoLogin.php">Chunchunmaru Bookstore</a>
       </div>
 	  <div id="header-widgets">
          <nav>
