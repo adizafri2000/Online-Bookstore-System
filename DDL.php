@@ -69,12 +69,20 @@
         ISBN INT(13) NOT NULL,
         Date_Purchased DATE NOT NULL,
         Total INT NOT NULL,
+        PRIMARY KEY (userEmail,ISBN),
+        FOREIGN KEY (userEmail) REFERENCES user (userEmail),
+        FOREIGN KEY (ISBN) REFERENCES book (ISBN)
+    )";
+
+    //Rating table
+	$query = "CREATE TABLE Rating(
+        userEmail VARCHAR(100) NOT NULL,
+        ISBN INT(13) NOT NULL,
         Rating INT,
         PRIMARY KEY (userEmail,ISBN),
         FOREIGN KEY (userEmail) REFERENCES user (userEmail),
         FOREIGN KEY (ISBN) REFERENCES book (ISBN)
     )";
-	
 	
     $result = mysqli_query($connect,$query); 
 
