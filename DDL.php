@@ -50,7 +50,7 @@
         ISBN VARCHAR(13) NOT NULL PRIMARY KEY,
 		authorID VARCHAR(10),
 		pubID VARCHAR(10),
-        bookName VARCHAR(60) NOT NULL,
+        bookName VARCHAR(100) NOT NULL,
         Summary TEXT,
         Year_Published INT(4) NOT NULL,
         Stock INT NOT NULL,

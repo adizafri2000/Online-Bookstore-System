@@ -643,7 +643,7 @@
     //Cooking
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9789814828604,
+            '9789814828604',
             'A000000016',
             'P000000013',
             'Creative Baking: Macaron Basics (Creative Baking Series)',
@@ -657,7 +657,7 @@
     
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9789674151850,
+            '9789674151850',
             'A000000017',
             'P000000014',
             'Goo Chui Hoong\'s Lite Malaysian Favourites (MPH Masterclass Series)',
@@ -670,7 +670,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9789814779814,
+            '9789814779814',
             'A000000018',
             'P000000013',
             'The Best of Chef Wan: A Taste of Malaysia (Volume 1)',
@@ -683,7 +683,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9780600623595,
+            '9780600623595',
             'A000000019',
             'P000000015',
             'Hamlyn QuickCook: Family Meals',
@@ -696,7 +696,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9780399579851,
+            '9780399579851',
             'A000000020',
             'P000000016',
             'World Food Mexico City : Heritage Recipes for Classic Home Cooking',
@@ -709,7 +709,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9780393089042,
+            '9780393089042',
             'A000000021',
             'P000000017',
             'Every Grain of Rice : Simple Chinese Home Cooking',
@@ -722,7 +722,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9780241455159,
+            '9780241455159',
             'A000000022',
             'P000000018',
             'What Mummy Makes : Cook Just Once for You and Your Baby',
@@ -735,7 +735,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9780241431153,
+            '9780241431153',
             'A000000023',
             'P000000019',
             '7 Ways : Easy Ideas for Every Day of the Week',
@@ -748,7 +748,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9781607742739,
+            '9781607742739',
             'A000000024',
             'P000000016',
             'Flour Water Salt Yeast : The Fundamentals of Artisan Bread and Pizza',
@@ -761,7 +761,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            9780241453124,
+            '9780241453124',
             'A000000025',
             'P000000019',
             'Meal Prep King Plan : Save time. Lose weight. Eat the meals you love',
@@ -775,282 +775,269 @@
     //Fantasy
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781408855690',
+            'A000000001',
+            'P000000001',
+            'Harry Potter and the Order of the Phoenix',
+            'Dark times have come to Hogwarts. After the Dementors\' attack on his cousin Dudley, Harry Potter knows that Voldemort will stop at nothing to find him. There are many who deny the Dark Lord\'s return, but Harry is not alone: a secret order gathers at Grimmauld Place to fight against the Dark forces. Harry must allow Professor Snape to teach him how to protect himself from Voldemort\'s savage assaults on his mind. But they are growing stronger by the day and Harry is running out of time.',
+            2004,
+            12,
             'Fantasy',
-            )";
+            59.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781408855713',
+            'A000000001',
+            'P000000001',
+            'HARRY POTTER AND THE DEATHLY HALLOWS',
+            'As he climbs into the sidecar of Hagrid\'s motorbike and takes to the skies, leaving Privet Drive for the last time, Harry Potter knows that Lord Voldemort and the Death Eaters are not far behind. The protective charm that has kept Harry safe until now is now broken, but he cannot keep hiding. The Dark Lord is breathing fear into everything Harry loves, and to stop him Harry will have to find and destroy the remaining Horcruxes. The final battle must begin – Harry must stand and face his enemy.',
+            2008,
+            1,
             'Fantasy',
-            )";
+            59.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780316552561',
+            'A000000002',
+            'P000000002',
+            'Konosuba God\'s Blessing on This Wonderful World! 1',
+            'Kazuma Sato is a video game-loving shut-in-or at least he was, until a humiliating traffic accident brings his young life to an untimely end. But after his death, a beautiful girl claiming to be a goddess invites him to enter another world and gain some respectable perks in the process. But Kazuma\'s choice is going to have serious consequences for the goddess and the dead man alike...',
+            2016,
+            5,
             'Fantasy',
-            )";
+            60.45)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781975320287',
+            'A000000003',
+            'P000000002',
+            'Re Zero Starting Life in Another World 1 : The Sanctuary and the Witch of Greed',
+            'After the battle against the Witch Cult\'s Archbishop of Sloth, Subaru is set to reunite with Emilia, but new trials and tribulations await. As another chapter unfolds, Subaru heads toward the holy territory of the Witch.',
+            2021,
+            8,
             'Fantasy',
-            )";
+            61.49)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781529308419',
+            'A000000004',
+            'P000000003',
+            'Elevation',
+            'Although Scott Carey doesn\'t look any different, he\'s been steadily losing weight. There are a couple of other odd things, too. He weighs the same in his clothes and out of them, no matter how heavy they are. Scott doesn’t want to be poked and prodded. He mostly just wants someone else to know, and he trusts Doctor Bob Ellis.',
+            2000,
+            7,
             'Fantasy',
-            )";
+            42.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781529402025',
+            'A000000005',
+            'P000000004',
+            'Highfire',
+            'Indulge in this tale of fiery fire and dragons.',
+            2010,
+            10,
             'Fantasy',
-            )";
+            79.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781471193071',
+            'A000000006',
+            'P000000005',
+            'DRAGON REALM 01 : DRAGON MOUNTAIN',
+            'A group of youngsters team up to battle dragons that reside next to their village.',
+            2011,
+            4,
             'Fantasy',
-            )";
+            49.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781416524526',
+            'A000000004',
+            'P000000006',
+            'The Dark Tower',
+            'A much-anticipated final installment in the epic series that began thirty-three years ago with The Gunslinger completes the quest of Roland Deschain, who works to outmaneuver the increasingly desperate acts of his adversaries and confronts losses within his circle of companions.',
+            2016,
+            3,
             'Fantasy',
-            )";
+            44.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781471183867',
+            'A000000007',
+            'P000000005',
+            'A Sprinkle of Sorcery',
+            'Three wizards take journey across the sea.',
+            2009,
+            1,
             'Fantasy',
-            )";
+            49.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781474978491',
+            'A000000008',
+            'P000000007',
+            'The Castle of Tangled Magic',
+            'A teenage girl mysteriously finds a castle behinds her house and explores it.',
+            2014,
+            8,
             'Fantasy',
-            )";
+            44.90)";
     $result = mysqli_query($connect,$query);
 
     //Health
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9789674154400',
+            'A000000026',
+            'P000000014',
+            'TIPS ON USING COMMON MEDICINES SAFELY',
+            'Written in an easily understood Q&A format, TIPS ON USING COMMON MEDICINES SAFELY provides information on how to maximise the use of common medicines while minimising the impact of their side effects. It also gives concise information on how to avoid harmful interactions with other drugs, food, herbs and vitamins.',
+            2015,
+            8,
             'Health',
-            )";
+            39.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781509852505',
+            'A000000027',
+            'P000000036',
+            'HOW NOT TO DIE (UK)',
+            'Teaches you literally to not die. Enjoy life with our various tips provided.',
+            2020,
+            1,
             'Health',
-            )";
+            64.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780062309815',
+            'A000000029',
+            'P000000011',
+            'The Beauty Diet',
+            'This book guides you on how to stay on a diet while maintaining your beauty.',
+            2020,
+            7,
             'Health',
-            )";
+            86.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781846045714',
+            'A000000030',
+            'P000000020',
+            'THE HEALING SELF',
+            'Guides readers on healing themselves with the help of nature and environment.',
+            2011,
+            9,
             'Health',
-            )";
+            42.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781743795965',
+            'A000000031',
+            'P000000021',
+            'The Path to Longevity : How to Reach 100 with the Health and Stamina of a 40-Year-Old',
+            'The Path to Longevity is a roadmap to living a long, healthy life. In it, Dr Luigi Fontana, Professor of Medicine and Nutritional Science, summarises more than 20 years of research on preventative medicine, clinical practice, and his accumulated knowledge on healthy longevity, using an evidence-based approach.',
+            2020,
+            1,
             'Health',
-            )";
+            106.35)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780141978611',
+            'A000000032',
+            'P000000019',
+            'The Body Keeps the Score: Mind, Brain and Body in the Transformation of Trauma',
+            'What causes people to continually relive what they most want to forget, and what treatments could help restore them to a life with purpose and joy? Here, Dr Bessel van der Kolk offers a new paradigm for effectively treating traumatic stress.',
+            2015,
+            9,
             'Health',
-            )";
+            63.95)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780785838302',
+            'A000000033',
+            'P000000022',
+            'The Complete Guide to Self Care : Best Practices for a Healthier and Happier You',
+            'Self-care is far from selfish. Learn lots of new mantras, tips, tricks, and crafts to help balance out all the moving parts in your life with The Complete Guide to Self-Care.',
+            2020,
+            7,
             'Health',
-            )";
+            85.14)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780241426289',
+            'A000000034',
+            'P000000018',
+            'Neal\'s Yard Remedies Healing Herbs: Treat Yourself Naturally with Homemade Herbal Remedies',
+            'Find your route to natural wellness with Neal\'s Yard Remedies\' expert guide to using medicinal herbs. Neal\'s Yard Remedies Healing Herbs offers expert advice and know-how you can trust in this detailed guide, which features an illustrated directory of 100 key herbs, including hemp, lavender, thyme, aloe vera, and lemongrass.',
+            2020,
+            11,
             'Health',
-            )";
+            110.50)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781788401661',
+            'A000000035',
+            'P000000023',
+            'The Korean Skincare Bible : The Ultimate Guide to K-Beauty Secrets',
+            'The Korean Skincare Bible is your expert guide to achieving radiant, flawless skin, every day.',
+            2019,
+            3,
             'Health',
-            )";
+            55.00)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780008436209',
+            'A000000036',
+            'P000000024',
+            'The Cancer Code: A Revolutionary New Understanding of a Medical Mystery',
+            'Our understanding of cancer is slowly undergoing a revolution, allowing for the development of more effective treatments. For the first time ever, the death rate from cancer is showing a steady decline ... but the \'War on Cancer\' has hardly been won.',
+            2020,
+            1,
             'Health',
-            )";
+            91.74)";
     $result = mysqli_query($connect,$query);
 
     //Horror
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Horror',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1063,20 +1050,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Horror',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1089,20 +1063,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Horror',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1115,20 +1076,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Horror',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1141,7 +1089,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
+            '',
             '',
             '',
             '',
@@ -1154,7 +1102,59 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
             ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Horror',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
             '',
             '',
             '',
@@ -1168,20 +1168,7 @@
     //Romance
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Romance',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1194,20 +1181,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Romance',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1220,20 +1194,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Romance',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1246,20 +1207,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Romance',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1272,7 +1220,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
+            '',
             '',
             '',
             '',
@@ -1285,7 +1233,59 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
             ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Romance',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
             '',
             '',
             '',
@@ -1299,20 +1299,7 @@
     //Self-Help
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Self-Help',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1325,20 +1312,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Self-Help',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1351,20 +1325,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Self-Help',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1377,20 +1338,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Self-Help',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1403,7 +1351,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
+            '',
             '',
             '',
             '',
@@ -1416,7 +1364,59 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
             ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Self-Help',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
             '',
             '',
             '',
@@ -1430,20 +1430,7 @@
     //Thriller
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Thriller',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1456,20 +1443,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Thriller',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1482,20 +1456,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Thriller',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1508,20 +1469,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
             '',
-            '',
-            '',
-            '',
-            ,
-            ,
-            'Thriller',
-            )";
-    $result = mysqli_query($connect,$query);
-
-    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
-        VALUES(
-            ,
             '',
             '',
             '',
@@ -1534,7 +1482,7 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            ,
+            '',
             '',
             '',
             '',
@@ -1547,7 +1495,59 @@
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
             ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
+            '',
+            '',
+            '',
+            '',
+            ,
+            ,
+            'Thriller',
+            )";
+    $result = mysqli_query($connect,$query);
+
+    $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
+        VALUES(
+            '',
             '',
             '',
             '',
