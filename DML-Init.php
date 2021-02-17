@@ -1037,263 +1037,263 @@
     //Horror
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9789814315715',
+            'A000000037',
+            'P000000025',
+            'MR. MIDNIGHT 91: RUN! ITS THE RUBBER MAN!',
+            'The Rubber Man wanders the school compound at night to prey on children.',
+            2019,
+            6,
             'Horror',
-            )";
+            12.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9789814315708',
+            'A000000037',
+            'P000000025',
+            'MR. MIDNIGHT 90: RIVERBOAT GHOSTS',
+            'Wanna go on a tour on the riverboat? Sure, just make sure your bringing blessings to shoo the white beings away.',
+            2019,
+            5,
             'Horror',
-            )";
+            12.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9789810013462',
+            'A000000038',
+            'P000000025',
+            'True Singapore Ghost Stories 01',
+            'Real-life stories of encounters with the paranormal beings.',
+            2006,
+            1,
             'Horror',
-            )";
+            19.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9789810025298',
+            'A000000038',
+            'P000000025',
+            'True Singapore Ghost Stories 02',
+            'Real-life stories of encounters with the paranormal beings.',
+            2006,
+            6,
             'Horror',
-            )";
+            19.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781444783247',
+            'A000000004',
+            'P000000003',
+            'Doctor Sleep',
+            'King says he wanted to know what happened to Danny Torrance, the boy at the heart of The Shining, after his terrible experience in the Overlook Hotel. The instantly riveting Doctor Sleep picks up the story of the now middle-aged Dan, working at a hospice in rural New Hampshire, and the very special twelve-year old girl he must save from a tribe of murderous paranormals.',
+            2013,
+            8,
             'Horror',
-            )";
+            31.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781501121173',
+            'A000000004',
+            'P000000005',
+            'Revival',
+            'A spectacularly dark and electrifying novel about addiction, religion, music and what might exist on the other side of life.',
+            2011,
+            2,
             'Horror',
-            )";
+            39.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781982114312',
+            'A000000004',
+            'P000000005',
+            'The Outsider',
+            'What would you do if an outsider trespasses your private residence and hunts you?',
+            2009,
+            7,
             'Horror',
-            )";
+            39.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781787632530',
+            'A000000039',
+            'P000000026',
+            'Year of the Witching',
+            'In the lands of Bethel, where the Prophet\'s word is law, Immanuelle Moore\s very existence is blasphemy. The daughter of a union with an outsider that cast her once-proud family into disgrace, Immanuelle does her best to worship the Father, follow Holy Protocol and lead a life of submission, devotion and absolute conformity, like all the women in the settlement. But a chance mishap lures her into the forbidden Darkwood that surrounds Bethel - a place where the first prophet once pursued and killed four powerful witches. Their spirits are still walking there, and they bestow a gift on Immanuelle: the diary of her dead mother, who Immanuelle is shocked to learn once sought sanctuary in the wood.',
+            2020,
+            9,
             'Horror',
-            )";
+            79.95)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781728220147',
+            'A000000040',
+            'P000000027',
+            'The Haunting of Blackwood House',
+            'With a childhood filled with seances and scam mediums, Mara, the daughter of spiritualists, finds her beliefs questioned when she and her fiance buy Blackwood House, a derelict property rumored to be haunted.',
+            2020,
+            9,
             'Horror',
-            )";
+            70.50)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781789095296',
+            'A000000041',
+            'P000000028',
+            'Only Good Indians',
+            'Adam Nevill\'s The Ritual meets Liane Moriarty\'s Big Little Lies in this atmospheric gothic literary horror.',
+            2020,
+            1,
             'Horror',
-            )";
+            52.75)";
     $result = mysqli_query($connect,$query);
 
     //Romance
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781632367747',
+            'A000000009',
+            'P000000008',
+            'The Quintessential Quintuplets 1',
+            'Futaro Uesugi is a second-year in high school, scraping to get by and pay off his family\'s debt. The only thing he can do is study, so when Futaro receives a part-time job offer to tutor the five daughters of a wealthy businessman, he can\'t pass it up. Little does he know, these five beautiful sisters are quintuplets, but the only thing they have in common is that they\'re all terrible at studying! At this rate, the sisters can\'t graduate, and Futaro must think of a plan that suits each of them - which feels hopeless when five-out-of-five of these girls think he\'s a loser!',
+            2019,
+            3,
             'Romance',
-            )";
+            49.89)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781632369970',
+            'A000000010',
+            'P000000008',
+            'Rent-a-Girlfriend 1',
+            'You can rent a girlfriend, but can you buy love? Hapless freshman Kazuya, reeling from a bad breakup, buys a few hours at the aquarium with the beautiful, polite Chizuru. But rock bottom might be so much lower than he thought! Family, school, and life all start to go wrong, and to make matters worse, Chizuru is much more than the pretty face and sweet demeanor he thought he had bargained for!',
+            2020,
+            7,
             'Romance',
-            )";
+            58.97)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781335474605',
+            'A000000011',
+            'P000000009',
+            'WHY NOT TONIGHT',
+            'A romantic tale of a newlywed couple whom try new things as a pair.',
+            2009,
+            1,
             'Romance',
-            )";
+            39.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781632367754',
+            'A000000009',
+            'P000000008',
+            'The Quintessential Quintuplets 2',
+            'Futaro Uesugi is a second-year in high school, scraping to get by and pay off his family\'s debt. The only thing he can do is study, so when Futaro receives a part-time job offer to tutor the five daughters of a wealthy businessman, he can\'t pass it up. Little does he know, these five beautiful sisters are quintuplets, but the only thing they have in common is that they\'re all terrible at studying! At this rate, the sisters can\'t graduate, and Futaro must think of a plan that suits each of them - which feels hopeless when five-out-of-five of these girls think he\'s a loser!',
+            2019,
+            6,
             'Romance',
-            )";
+            49.89)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781632367761',
+            'A000000009',
+            'P000000008',
+            'The Quintessential Quintuplets 3',
+            'Futaro Uesugi is a second-year in high school, scraping to get by and pay off his family\'s debt. The only thing he can do is study, so when Futaro receives a part-time job offer to tutor the five daughters of a wealthy businessman, he can\'t pass it up. Little does he know, these five beautiful sisters are quintuplets, but the only thing they have in common is that they\'re all terrible at studying! At this rate, the sisters can\'t graduate, and Futaro must think of a plan that suits each of them - which feels hopeless when five-out-of-five of these girls think he\'s a loser!',
+            2019,
+            1,
             'Romance',
-            )";
+            49.89)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781632369987',
+            'A000000010',
+            'P000000008',
+            'Rent-a-Girlfriend 2',
+            'You can rent a girlfriend, but can you buy love? Hapless freshman Kazuya, reeling from a bad breakup, buys a few hours at the aquarium with the beautiful, polite Chizuru. But rock bottom might be so much lower than he thought! Family, school, and life all start to go wrong, and to make matters worse, Chizuru is much more than the pretty face and sweet demeanor he thought he had bargained for!',
+            2020,
+            2,
             'Romance',
-            )";
+            58.97)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781975359621',
+            'A000000012',
+            'P000000002',
+            'Rascal Does Not Dream of Bunny Girl Senpai 1',
+            'Bunny girls do not live in libraries. This is simply common sense. And yet, that\'s exactly where Sakuta runs into one in the wild. More bewildering is who the bunny girl is: Mai Sakurajima, an upperclassman and well-known actress currently taking a break from industry work. Wanting to find out more about the mystery surrounding Mai (and maybe get a little closer to her in the process), Sakuta launches an investigation to figure out what\'s making this bunny girl invisible to everyone around them.',
+            2020,
+            2,
             'Romance',
-            )";
+            111.60)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781335897978',
+            'A000000013',
+            'P000000010',
+            'The MacGregor Brides',
+            'A story about the MacGregor siblings who are stepping into their life as brides.',
+            2016,
+            9,
             'Romance',
-            )";
+            39.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9780062425546',
+            'A000000014',
+            'P000000011',
+            'Between You and Me',
+            'A girl tests the faithfullness of her lover in keeping a petty secret.',
+            2018,
+            2,
             'Romance',
-            )";
+            39.90)";
     $result = mysqli_query($connect,$query);
 
     $query = "INSERT INTO Book (ISBN, authorID, pubID, bookName, Summary, Year_Published, Stock, Genre, Price) 
         VALUES(
-            '',
-            '',
-            '',
-            '',
-            '',
-            ,
-            ,
+            '9781538737156',
+            'A000000015',
+            'P000000012',
+            'The Return',
+            'A man returns to his beloved after journeying around the world.',
+            2014,
+            9,
             'Romance',
-            )";
+            79.90)";
     $result = mysqli_query($connect,$query);
 
     //Self-Help
