@@ -5,13 +5,19 @@ html{
 #content{
     background-color: white;
     height: 100em;
+    width: 100%;
+}
+
+#content::after{
+    content: "";
+    display: table;
+  clear: both;
 }
 
 #genre-navigation{
     float: left;
-    width: 25%;
+    column-width: 25%;
     height: 100%;
-    background-color: green;
 }
 
 #genre-bar{
@@ -52,15 +58,20 @@ li{
 #book-promotion{
     height: 100%;
     background-color: olivedrab;
-    padding: 0.4em;
+    column-width: 75%;
+}
+
+#promotion1, #promotion2, #promotion3{
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
 }
 
 #promotion1{
     background-color: purple;
     width: inherit;
     height: 30%;
-    align-items: center;
-    justify-content: center;
+    
 }
 
 #genre-title{
@@ -73,7 +84,6 @@ li{
 }
 
 #genre-book-space{
-    background-color: grey;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
