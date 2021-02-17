@@ -15,6 +15,7 @@
       <header><?php include "headerNoLogin.inc.php"; ?></header>
       <div id="content">
          <div id="genre-navigation">
+            
             <div id="genre-bar">
                <div id="bar-header">
                   <p>Browse by genre</p>
@@ -32,12 +33,13 @@
                </div>
             </div>
          </div>
+
          <div id="book-promotion">
-            <div id="promotion1">
+            <div id="promotion">
                <div id="genre-title">
                   <p>Let your imagination run wild!</p>
                </div>
-               <div id="genre-book-space">
+               <div id="book-space">
                   <div id="book1">
                      <figure>
                         <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
@@ -58,11 +60,55 @@
                   </div>
                </div>
             </div>
-            <div id="promotion2">
-               
+            <div id="promotion">
+               <div id="genre-title">
+                  <p>Let your imagination run wild!</p>
+               </div>
+               <div id="book-space">
+                  <div id="book1">
+                     <figure>
+                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
+                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
+                     </figure>
+                  </div>
+                  <div id="book2">
+                     <figure>
+                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
+                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
+                     </figure>
+                  </div>
+                  <div id="book3">
+                     <figure>
+                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
+                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
+                     </figure>
+                  </div>
+               </div>
             </div>
-            <div id="promotion3">
-               
+            <div id="promotion">
+               <div id="genre-title">
+                  <p>Let your imagination run wild!</p>
+               </div>
+               <div id="book-space">
+                  <div id="book1">
+                     <figure>
+                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
+                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
+                     </figure>
+                  </div>
+                  <div id="book2">
+                     <figure>
+                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
+                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
+                     </figure>
+                  </div>
+                  <div id="book3">
+                     <figure>
+                        <img src="images/book-cover/fantasy/9780316552561.jpg" width="80" height="120">
+                        <figcaption>Konosuba: God's Blessing in this Wonderful World</figcaption>
+                     </figure>
+                  </div>
+               </div>
             </div>
          </div>
       </div>
