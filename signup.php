@@ -30,7 +30,7 @@
                     <input type="Sign Up" name="reg" value="Register"/>
                 </form>
             </div>
-            <p id="signuptext">Already a member yet? Click <a href="Login.php">here</a> to login.</p>
+            <p id="signuptext">Already a member ? Click <a href="Login.php">here</a> to login.</p>
         </div>
 
         <footer><?php include "footer.inc.php"; ?></footer>

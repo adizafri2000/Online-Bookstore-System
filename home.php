@@ -12,18 +12,9 @@
    </head>
 
    <body>
-      <header><?php if (empty($_POST)) include "headerNoLogin.inc.php";
+      <header><?php if (empty($_GET)) include "headerNoLogin.inc.php";
                      else{
-                        $match = false;
-                        $connect = mysqli_connect("localhost","root","","chunchunmaru");
-                        $query = "select userEmail,userPwd from user where
-                                    userEmail='".$_POST["userEmail"].
-                                    "' and userPwd='".$_POST["userPwd"]."'";
-                        $result = mysqli_query($connect,$query);
-                        if ($result)
-                           include "headerWithLogin.inc.php";
-                        else
-                           include "headerNoLogin.inc.php";
+                        include "headerWithLogin.inc.php";
                      } 
          ?></header>
       <div id="content">

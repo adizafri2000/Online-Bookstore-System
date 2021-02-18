@@ -18,12 +18,17 @@
                 <p>Log in to your Chunchunmaru Bookstore account</p>
             </div>
             <div id="real-form">
-                <form action="home.php" method="POST">
+                <form action="accountvalidation.php" method="POST">
                     Email<br>
                     <input type="text" size="30" name="userEmail" /><br>
                     Password<br>
                     <input type="password" size="30" name="userPwd"/><br>
                     <input type="submit" />
+                    
+                    <?php 
+                        if(!empty($_GET))
+                            echo "<p style='font-size: 0.8em;color:red;text-align:center;'>Email/Password does not exist.</p>";
+                    ?>
                 </form>
             </div>
             <p id="signuptext">Not a member yet? Click <a href="signup.php">here</a> to sign up.</p>
