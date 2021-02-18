@@ -18,7 +18,7 @@
                 <p>Log in to your Chunchunmaru Bookstore account</p>
             </div>
             <div id="real-form">
-                <form action="accountvalidation.php" method="POST">
+                <form action="loginvalidation.php" method="POST">
                     Email<br>
                     <input type="text" size="30" name="userEmail" /><br>
                     Password<br>
@@ -26,8 +26,13 @@
                     <input type="submit" />
                     
                     <?php 
-                        if(!empty($_GET))
+                        if(isset($_GET['success']))
                             echo "<p style='font-size: 0.8em;color:red;text-align:center;'>Email/Password does not exist.</p>";
+                        else if (isset($_GET['signup'])){
+                            echo ("<script LANGUAGE='JavaScript'>
+                            window.alert('Sign up successful!');
+                            </script>");
+                        }
                     ?>
                 </form>
             </div>

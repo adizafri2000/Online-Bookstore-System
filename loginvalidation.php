@@ -12,7 +12,7 @@
         header("Location:home.php?userEmail=".$_POST["userEmail"]);
     }
     else{
-        header("Location:login.php?success=false");
+        header("Location:login.php?success='0'");
     }
         
 ?>

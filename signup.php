@@ -8,61 +8,42 @@
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
       <link href="reset.css" rel="stylesheet">
-      <link href="login.css" rel="stylesheet">
+      <link href="signup.css" rel="stylesheet">
     </head>
     <body>
         <header><?php include "headerNoLogin.inc.php"; ?></header>
         
         <div id="signup-form-area">
             <div id="form-title">
-                <p>Rgeister new Chunchunmaru Bookstore account</p>
+                <p>Register new Chunchunmaru Bookstore account</p>
             </div>
             <div id="reg-form">
-                <form action="home.php" method="POST">
+                <form action="signupvalidation.php" method="POST" id="signupform">
                     Email<br>
                     <input type="email" size="30" name="userEmail" /><br>
                     Password<br>
                     <input type="password" size="30" name="userPwd"/><br>
-                    Username<br>
-                    <input type="password" size="30" name="userNm"/><br>
+                    Name<br>
+                    <input type="text" size="30" name="userNm"/><br>
                     Address<br>
-                    <input type="address" size="60" name="userAdd"/><br>
-                    <input type="Sign Up" name="reg" value="Register"/>
+                    <textarea rows="3" cols="30" form="signupform" name="userAdd"></textarea>
+                    <br>
+                    <input type="submit" name="reg" value="Register"/>
                 </form>
             </div>
-            <p id="signuptext">Already a member ? Click <a href="Login.php">here</a> to login.</p>
+            <p id="logintext">Already a member ? Click <a href="Login.php">here</a> to login.</p>
         </div>
-
-        <footer><?php include "footer.inc.php"; ?></footer>
         <?php
-  	require_once("connection.php");
-
-  	if(isset($_POST['reg'])){
-  		$user_email= $_POST['userEmail'];
-  		$user_password= $_POST['userPwd'];
-      $user_name= $_POST['userNm'];
-      $user_address= $_POST['userAdd'];
-
-  		if($user_email !="" and $user_password !="" and $user_name !="" and $user_address !=""){
-
-  			if(mysqli_query($con, "INSERT INTO user(userEmail, userPwd, userName, Address)
-  				VALUES('$user_email', '$user_password', '$user_name', '$user_address')")){
-
-  				echo ("<script LANGUAGE='JavaScript'>
-  					window.alert('Sign up successful!');
-  					window.location.href='Login.php';
+          if(isset($_GET["signup"])){
+            $signup = $_GET["signup"];
+            if(strcmp($signup,'0'))
+            echo ("<script LANGUAGE='JavaScript'>
+  					window.alert('Sign up failed. Email already exists.');
   				</script>");
-  			}
-        else{
-  				echo ("<script LANGUAGE='JavaScript'>
-  					window.alert('Sign up failed.');
-  				</script>");
-  			}
-
-  		}else{
-  			echo'<script type="text/javascript">alert("Please fill in all the boxes.")</script>';
-  		}
-  	}
-  ?>
+          }
+          else if (isset($_GET["emptyform"]))
+          echo'<script type="text/javascript">alert("Please fill in all the boxes.")</script>';
+        ?>
+        <footer><?php include "footer.inc.php"; ?></footer>
     </body>
 </html>
