@@ -43,10 +43,3 @@ li{
 #bar-contents a:hover{
     font-weight: bold;
 }
-
-#book-promotion{
-    float: left;
-    width: 50em;
-    height: 75em;
-    margin: 2em 0em 0em 4em;
-}

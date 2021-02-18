@@ -2,6 +2,13 @@ html{
     font-family: 'Quicksand', sans-serif; 
 }
 
+#book-promotion{
+    float: left;
+    width: 50em;
+    height: 75em;
+    margin: 2em 0em 0em 4em;
+}
+
 #promotion{
     border: 1px solid #eeb111;
     width: 40em;

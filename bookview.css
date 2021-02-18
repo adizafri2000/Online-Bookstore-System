@@ -4,10 +4,59 @@ html{
 
 #content{
     background-color: white;
-    height: 80em;
+    height: 70em;
 }
 
 #book-section{
-    border: 2px solid black;
-    
+    float: left;
+    width: 50em;
+    height: 60em;
+    margin: 2em 0em 0em 4em;
+    border: 1px solid blue;
+}
+
+#book-info, #summary, #adding-cart{
+    border: 1px solid #eeb111;
+    width: 40em;
+    height: 17em;
+    margin: 2.5em 5em; 
+}
+
+#summary{
+    height: auto;
+}
+
+#book-cover{
+    border: 1px solid red;
+    float: left;
+    width: 15em;
+    height: inherit;
+    text-align: center;
+}
+
+#book-details{
+    border: 1px blue solid;
+    float: left;
+    width: 20em;
+    height: inherit;
+    margin-left: 2em;
+}
+
+h4, h5{
+    margin: 0.2em;
+}
+
+h5{
+    font-weight: normal;
+    font-style: italic;
+}
+
+#book-details p{
+    font-size: 1em;
+    margin: 0.3em;
+}
+
+#summary p{
+    margin: 2em 1.5em;
+    text-align: justify;
 }
