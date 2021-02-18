@@ -16,39 +16,59 @@
             <div id="book-results">
                 <?php
                     $connect = mysqli_connect("localhost","root","","chunchunmaru");
-                    if(!ctype_space($_POST['search'])){
-                        $query = "select * from book where bookName LIKE '%".$_POST['search']."%'";
-                        $result = mysqli_query($connect,$query);
-                        $totalfound = mysqli_num_rows($result);
-                        if($totalfound==0){
-                            echo "No books found. Try searching for a different name.<br>";
-                            $promotions = ["promotion-cooking.php","promotion-fantasy.php","promotion-health.php","promotion-horror.php","promotion-romance.php","promotion-self-help.php","promotion-thriller.php"];
-                            $index = rand(0,6);
-                            echo "<p id='promote'>Check out these books!</p>";
-                            include $promotions[$index];
-                        }
-                        else{
-                            echo $totalfound." result(s) found<br>";
-                            while($row = mysqli_fetch_array($result)){
-                                $link = "bookview.php?ISBN=".$row['ISBN'];
-                                if (isset($_GET['userEmail']))
-                                    $link = $link."&userEmail=".$_GET['userEmail'];
-                                echo "
-                                <a href='".$link."'>
-                                <div id='book-row'>
-                                        <div id='bookcover'><img src='images/book-cover/".$row['Genre']."/".$row['ISBN'].".jpg' width='120' height='160'></div>
-                                        <div id='bookname'><p>".$row['bookName']."</p></div>
-                                </div>
-                                </a>
-                                ";
+                    if(isset($_POST['search'])){
+                        if(!ctype_space($_POST['search'])){
+                            $query = "select * from book where bookName LIKE '%".$_POST['search']."%'";
+                            $result = mysqli_query($connect,$query);
+                            $totalfound = mysqli_num_rows($result);
+                            if($totalfound==0){
+                                echo "No books found. Try searching for a different name.<br>";
+                                $promotions = ["promotion-cooking.php","promotion-fantasy.php","promotion-health.php","promotion-horror.php","promotion-romance.php","promotion-self-help.php","promotion-thriller.php"];
+                                $index = rand(0,6);
+                                echo "<p id='promote'>Check out these books!</p>";
+                                include $promotions[$index];
+                            }
+                            else{
+                                echo $totalfound." result(s) found<br>";
+                                while($row = mysqli_fetch_array($result)){
+                                    $link = "bookview.php?ISBN=".$row['ISBN'];
+                                    if (isset($_GET['userEmail']))
+                                        $link = $link."&userEmail=".$_GET['userEmail'];
+                                    echo "
+                                    <a href='".$link."'>
+                                    <div id='book-row'>
+                                            <div id='bookcover'><img src='images/book-cover/".$row['Genre']."/".$row['ISBN'].".jpg' width='120' height='160'></div>
+                                            <div id='bookname'><p>".$row['bookName']."</p></div>
+                                    </div>
+                                    </a>
+                                    ";
+                                }
                             }
                         }
+                        else{
+                            if(isset($_GET['userEmail']))
+                                header("Location:home.php?userEmail=".$_GET['userEmail']."&searchstatus='0'");
+                            else
+                                header("Location:home.php?searchstatus='0'");
+                        }
                     }
-                    else{
-                        if(isset($_GET['userEmail']))
-                            header("Location:home.php?userEmail=".$_GET['userEmail']."&searchstatus='0'");
-                        else
-                            header("Location:home.php?searchstatus='0'");
+                    else if (isset($_GET['genre'])){
+                        $query = "select * from book where Genre='".$_GET['genre']."'";
+                        $result = mysqli_query($connect,$query);
+                        echo mysqli_num_rows($result)." ".ucfirst($_GET['genre'])." books found";
+                        while($row = mysqli_fetch_array($result)){
+                            $link = "bookview.php?ISBN=".$row['ISBN'];
+                            if (isset($_GET['userEmail']))
+                                $link = $link."&userEmail=".$_GET['userEmail'];
+                            echo "
+                            <a href='".$link."'>
+                            <div id='book-row'>
+                                    <div id='bookcover'><img src='images/book-cover/".$row['Genre']."/".$row['ISBN'].".jpg' width='120' height='160'></div>
+                                    <div id='bookname'><p>".$row['bookName']."</p></div>
+                            </div>
+                            </a>
+                            ";
+                        }
                     }
                 ?>
             </div>

@@ -8,13 +8,25 @@
     </div>
     <div id="bar-contents">
         <ul>
-            <li><a href="#">Cooking</a></li>
-            <li><a href="#">Fantasy</a></li>
-            <li><a href="#">Horror</a></li>
-            <li><a href="#">Romance</a></li>
-            <li><a href="#">Health</a></li>
-            <li><a href="#">Self-Help</a></li>
-            <li><a href="#">Thriller</a></li>
+            <?php
+                $link = "searchresults.php";
+                if (isset($_GET['userEmail']))
+                    $link = $link."?userEmail=".$_GET['userEmail'];
+                function linkmaker($genre){
+                    $link = "searchresults.php";
+                    $link = $link."?genre=".$genre;
+                    if (isset($_GET['userEmail']))
+                        $link = $link."&userEmail=".$_GET['userEmail'];
+                    return $link;
+                }
+            ?>
+            <li><a href="<?php echo linkmaker('cooking');?>">Cooking</a></li>
+            <li><a href="<?php echo linkmaker('fantasy');?>">Fantasy</a></li>
+            <li><a href="<?php echo linkmaker('horror');?>">Horror</a></li>
+            <li><a href="<?php echo linkmaker('romance');?>">Romance</a></li>
+            <li><a href="<?php echo linkmaker('health');?>">Health</a></li>
+            <li><a href="<?php echo linkmaker('self-help');?>">Self-Help</a></li>
+            <li><a href="<?php echo linkmaker('thriller');?>">Thriller</a></li>
         </ul>
     </div>
 </div>
