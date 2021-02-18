@@ -4,8 +4,13 @@ html{
 
 #content{
     width: 50em;
-    height: 20em;
+    height: auto;
     margin: 4em auto;
+}
+
+#detail{
+    width: 50em;
+    height: 20em;
     border: 3px solid black;
 }
 
@@ -45,4 +50,54 @@ html{
     border: 1.5px solid navy;
     padding: 0.3em;
     background-color: lightskyblue;
+}
+
+#purchase-history{
+    border: 2px solid rgb(212, 227, 243);
+    width: 50em;
+    height: auto;
+    margin-top: 3em;
+}
+
+h4{
+    padding: 1em;
+}
+
+#purchase-history table{
+    border-collapse: collapse;
+    margin-top: 0.3em;
+}
+
+#purchase-history td{
+   border-top: 2px solid rgb(212, 227, 243);
+   font-style: italic;
+   font-size: small;
+   font-weight: lighter;
+   padding: 0.5em 0.5em;
+}
+
+td[colspan="2"]{
+    text-align: center;
+}
+
+#no-record{
+    font-style: italic;
+    font-size: small;
+    font-weight: lighter;
+    padding: 0.5em 0.5em;
+}
+
+#rating-selection{
+    margin-top: 1.5em;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#rating-selection a{
+    text-decoration: none;
+    color: black;
+}
+
+#rating-selection a:hover{
+    color: red;
 }
