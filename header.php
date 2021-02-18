@@ -30,9 +30,16 @@
       </div>
    </div>
    <div id="header-search">
-      <form id="search-bar">
+      <form id="search-bar" action="searchresults.php" method="POST">
          <input type="text" size="40" placeholder="Search for book title" name="search">
          <button type="submit"><img src="images/icons/search-16.png"></button>
+         <?php 
+            if(isset($_GET['searchstatus'])){
+               if(strcmp($_GET['searchstatus'],'0')){
+                  echo "<p style='color:red;'>Searched text cannot be empty</p>";
+               }
+            }
+         ?>
       </form>
    </div>
 </div>
