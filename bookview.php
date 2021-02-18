@@ -40,6 +40,26 @@
                         <p>Year published: <?php echo $row['Year_Published']; ?></p>
                         <p>ISBN: <?php echo $row['ISBN']; ?></p>
                         <p>Price: RM<?php echo $row['Price']; ?></p>
+                        <?php
+                            $query = "select * from Rating where ISBN='".$row['ISBN']."'";
+                            $result = mysqli_query($connect,$query);
+                            $totalrating = 0;
+                            $totalraters = 0;
+                            while($rateRow = mysqli_fetch_array($result)){
+                                if(isset($rateRow['Rating'])){
+                                    $totalrating+=$rateRow['Rating'];
+                                    $totalraters++;
+                                }
+                            }
+                            if($totalrating==0){
+                                $average = "No ratings yet";
+                            }
+                            else{
+                                $average = $totalrating/$totalraters;
+                            }
+                            
+                        ?>
+                        <p>Average Rating: <?php echo $average;?>/5</p>
                     </div>
                 </div>
                 <div id="summary">

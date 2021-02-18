@@ -21,7 +21,14 @@
                      else echo "<a href='login.php'><img src='images/icons/user-24.png'> Sign Up/Login</a>";
                   ?>
                </li>
-               <li><a href="#">
+               <?php
+                  if(isset($_GET['userEmail'])){
+                     $link = "checkout.php?userEmail=".$_GET['userEmail'];
+                  }
+                  else
+                     $link = "login.php";
+               ?>
+               <li><a href="<?php echo $link; ?>">
                   <img src="images/icons/cart-24.png"> Cart
                   <span id="cart-total-item"></span>
                </a></li>
