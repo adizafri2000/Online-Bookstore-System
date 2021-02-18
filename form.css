@@ -1,0 +1,107 @@
+
+
+html{
+   font-family: 'Quicksand', sans-serif;   
+}
+
+body{
+	background-image: url(images/bookstore.jpeg);
+	background-repeat: repeat;
+}
+#header-base{
+   background-color: #97CAEF;
+   height: 8em;
+}
+
+#header-top{
+   background-color: #97CAEF;
+   height: 65%;
+}
+
+#header-home-hyperlink{
+   float: left;
+   padding: 1em;
+   width: 30%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#header-home-hyperlink a{
+   font-size: 2em;
+   font-family: 'Quicksand', sans-serif;
+   text-decoration: none;
+   text-align: center;
+   color: black;
+}
+
+.dform
+{
+	margin: 4em 15em;
+    display: block;
+    text-align: center;
+}
+form
+{
+	background-color: #d1ecff;
+	border: 1px solid #d1ecff;
+	border-radius: 0.5em;
+    text-align: left;
+	padding-top: 2em;
+	padding-right: 2em;
+	padding-left: 2em;
+	padding-bottom: 4em;
+}
+
+h2{
+	text-align: center;
+	margin-bottom: 2em;
+}
+
+input{
+	display: block;
+	border: 1px solid #d1ecff;
+	width: 95%;
+	margin: 1em auto;
+	padding: 1em;
+}
+
+.btn{
+	background-color: white;
+	border: 1px solid #97CAEF;
+	border-radius: 0.2em;
+	padding: 0.5em;
+	float: right;
+	width: 20%;
+}
+
+.btn:hover {
+	border: 1px solid black;
+	background-color: white;
+}
+
+/*
+p{
+	padding-top: 1em;
+	text-align: center;
+	margin-top: 5em;
+	font-size: 0.8em;
+} */
+
+a:link{
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:visited{
+	color:black;
+}
+
+.errorMsg{
+	text-align: center;
+	margin: 0.3em;
+	color: red;
+	font-weight: bold;
+}
