@@ -11,7 +11,7 @@
       <link href="signup.css" rel="stylesheet">
     </head>
     <body>
-        <header><?php include "headerNoLogin.inc.php"; ?></header>
+        <header><?php include "header.php"; ?></header>
         
         <div id="signup-form-area">
             <div id="form-title">

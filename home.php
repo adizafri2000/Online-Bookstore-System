@@ -12,11 +12,7 @@
    </head>
 
    <body>
-      <header><?php if (empty($_GET)) include "headerNoLogin.inc.php";
-                     else{
-                        include "headerWithLogin.inc.php";
-                     } 
-         ?></header>
+      <header><?php include "header.php"?></header>
       <div id="content">
          <div id="genre-navigation">
             <?php include "genre-navigation-bar.php";?>
