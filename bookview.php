@@ -30,7 +30,7 @@
                             $row = mysqli_fetch_array($result);
                             $link = "images/book-cover/".$row['Genre']."/".$ISBN.".jpg";
                         ?>
-                        <img src="<?php echo $link ?>" width="210" height="270">
+                        <img src="<?php echo $link ?>" width="200" height="260">
                     </div>
                     <div id="book-details">
                         <h4 id="book-name"><?php echo $row['bookName']; ?></h4>
@@ -68,6 +68,32 @@
                 </div>
                 <div id="adding-cart">
                     <p><?php echo $row['Stock']?> unit(s) in stock.</p>
+                    <?php
+                        if(isset($_GET['userEmail'])){
+                            if($row['Stock']>0){
+                                $min = 1;
+                                $max = $row['Stock'];
+                                echo "
+                                    <form action='cartupdater.php?userEmail=".$_GET['userEmail']."&ISBN=".$row['ISBN']."' method='POST'>
+                                        <input type='number' name='quantity' min=".$min." max=".$max.">
+                                        <input type='Submit'>
+                                    </form>
+                                ";
+                                if(isset($_GET['quantity'])){
+                                    echo "<p id='notice'>".$_GET['quantity']." unit(s) already in cart</p>";
+                                }
+                            }
+                            else{
+                                echo "<p id='notice'>Item is out of stock. Please wait until new stock arrives to place your order.</p>";
+                            }
+                        }
+                        else{
+                            echo "<p id='notice'><a href='login.php'>Login</a> first to place order</p>";
+                        }
+                        
+                        
+                    ?>
+                    
                     
                 </div>
             </div>

@@ -3,6 +3,31 @@ html{
 }
 
 #content{
-    background-color: white;
-    height: 80em;
+    width: 50em;
+    height: auto;
+    margin: 4em auto;
+}
+
+#receipt{
+    border: 2px solid rgb(212, 227, 243);
+    width: 50em;
+    height: auto;
+    margin-top: 3em;
+}
+
+#receipt table{
+    border-collapse: collapse;
+    margin-top: 0.3em;
+}
+
+#receipt td{
+   border-top: 2px solid rgb(212, 227, 243);
+   font-style: italic;
+   font-size: small;
+   font-weight: lighter;
+   padding: 0.5em 0.5em;
+}
+
+td[colspan="2"]{
+    text-align: center;
 }

@@ -75,7 +75,6 @@
         userEmail VARCHAR(100) NOT NULL,
         ISBN VARCHAR(13) NOT NULL,
         quantity INT NOT NULL,
-        PRIMARY KEY (userEmail,ISBN),
         FOREIGN KEY (userEmail) REFERENCES user (userEmail) ON UPDATE CASCADE,
         FOREIGN KEY (ISBN) REFERENCES book (ISBN)
     )";

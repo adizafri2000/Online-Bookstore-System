@@ -13,6 +13,15 @@
 
    <body>
       <header><?php include "header.php"?></header>
+      <?php
+         if (isset($_GET['purchase'])){
+            echo ("<script LANGUAGE='JavaScript'>
+            window.alert('Transaction success. Redirecting to homepage');
+            </script>");
+         }
+         $date = date("Y-m-d");
+         echo "<p>".$date."</p>"
+      ?>
       <div id="content">
          <div id="genre-navigation">
             <?php include "genre-navigation-bar.php";?>

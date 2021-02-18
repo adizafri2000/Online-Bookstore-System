@@ -4,19 +4,18 @@ html{
 
 #content{
     background-color: white;
-    height: 70em;
+    height: 60em;
 }
 
 #book-section{
     float: left;
     width: 50em;
-    height: 60em;
+    height: auto;
     margin: 2em 0em 0em 4em;
-    border: 1px solid blue;
+    background-color: #b1c5d4;
 }
 
 #book-info, #summary, #adding-cart{
-    border: 1px solid #eeb111;
     width: 40em;
     height: 17em;
     margin: 2.5em 5em; 
@@ -27,7 +26,6 @@ html{
 }
 
 #book-cover{
-    border: 1px solid red;
     float: left;
     width: 15em;
     height: inherit;
@@ -35,18 +33,14 @@ html{
 }
 
 #book-details{
-    border: 1px blue solid;
     float: left;
     width: 20em;
     height: inherit;
     margin-left: 2em;
 }
 
-h4, h5{
-    margin: 0.2em;
-}
-
 h5{
+    margin: 0.2em;
     font-weight: normal;
     font-style: italic;
 }
@@ -59,4 +53,35 @@ h5{
 #summary p{
     margin: 2em 1.5em;
     text-align: justify;
+}
+
+#adding-cart{
+    height: auto;
+}
+
+#adding-cart p{
+    margin: 2em 1.5em;
+    text-align: justify;
+}
+
+#adding-cart form{
+    margin: 2em 1.5em;
+}
+
+#adding-cart input[type='submit']{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#notice{
+    margin: 2em 1.5em;
+}
+
+#notice a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#notice a:hover{
+    color: red;
 }
