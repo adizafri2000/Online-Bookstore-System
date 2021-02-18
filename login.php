@@ -26,7 +26,8 @@
                     <input type="submit" />
                 </form>
             </div>
-            <p id="signuptext">Not a member yet? Click <a href="signup.php">here</a> to sign up.</p>
+            <p id="signuptext">Not a member yet? Click <a href="signup.php">here</a> to sign up.</p><br>
+            <p id="adminlogintext">Admin? Click <a href="adminLogin.php">here</a> to login.</p>
         </div>
 
         <footer><?php include "footer.inc.php"; ?></footer>
