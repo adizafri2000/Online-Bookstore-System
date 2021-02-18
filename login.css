@@ -41,3 +41,15 @@ html{
     color: black;
     font-weight: bold;
 }
+
+#adminlogintext{
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+}
+
+#adminlogintext a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
