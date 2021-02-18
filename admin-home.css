@@ -36,7 +36,7 @@ html{
    justify-content: center;
 }
 
-/*Fine tune icons' alignment with text */
+
 #header-widgets img{
    position: relative;
    top: 0.25em;
@@ -119,8 +119,10 @@ html{
 }
 
 #content{
-   background-color: white;
-   margin: 7em 8.5em;
+    background-color: white;
+    margin-top: 7em;
+	margin-left: 8.1em;
+	margin-bottom: 15em;
 }
 
 .container {
