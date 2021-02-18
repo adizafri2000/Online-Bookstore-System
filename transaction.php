@@ -25,6 +25,7 @@
             '".$ISBN."',
             '".$date."',
             ".$row['quantity'].")";
+        mysqli_query($connect,$query);
 
         header("Location:home.php?purchase=1&userEmail=".$userEmail);
     }
