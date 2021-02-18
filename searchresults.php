@@ -15,20 +15,32 @@
         <div id="content">
             <div id="book-results">
                 <?php
-                
                     $connect = mysqli_connect("localhost","root","","chunchunmaru");
                     if(!ctype_space($_POST['search'])){
                         $query = "select * from book where bookName LIKE '%".$_POST['search']."%'";
                         $result = mysqli_query($connect,$query);
                         $totalfound = mysqli_num_rows($result);
-                        if($totalfound==0)
+                        if($totalfound==0){
                             echo "No books found. Try searching for a different name.<br>";
+                            $promotions = ["promotion-cooking.php","promotion-fantasy.php","promotion-health.php","promotion-horror.php","promotion-romance.php","promotion-self-help.php","promotion-thriller.php"];
+                            $index = rand(0,6);
+                            echo "<p id='promote'>Check out these books!</p>";
+                            include $promotions[$index];
+                        }
                         else{
                             echo $totalfound." result(s) found<br>";
                             while($row = mysqli_fetch_array($result)){
-                                echo "<div id='book-row'>
-                                <p>".$row['bookName']."</p>
-                                </div>";
+                                $link = "bookview.php?ISBN=".$row['ISBN'];
+                                if (isset($_GET['userEmail']))
+                                    $link = $link."&userEmail=".$_GET['userEmail'];
+                                echo "
+                                <a href='".$link."'>
+                                <div id='book-row'>
+                                        <div id='bookcover'><img src='images/book-cover/".$row['Genre']."/".$row['ISBN'].".jpg' width='120' height='160'></div>
+                                        <div id='bookname'><p>".$row['bookName']."</p></div>
+                                </div>
+                                </a>
+                                ";
                             }
                         }
                     }

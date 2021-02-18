@@ -30,7 +30,12 @@
       </div>
    </div>
    <div id="header-search">
-      <form id="search-bar" action="searchresults.php" method="POST">
+      <?php 
+         $link = "searchresults.php";
+         if (isset($_GET['userEmail']))
+            $link = $link."?userEmail=".$_GET['userEmail'];
+      ?>
+      <form id="search-bar" action="<?php echo $link; ?>" method="POST">
          <input type="text" size="40" placeholder="Search for book title" name="search">
          <button type="submit"><img src="images/icons/search-16.png"></button>
          <?php 
