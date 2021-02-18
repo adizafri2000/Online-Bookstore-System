@@ -1,0 +1,48 @@
+html{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#content{
+    width: 50em;
+    height: 20em;
+    margin: 4em auto;
+    border: 3px solid black;
+}
+
+#detail-header{
+    width: 50em;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#detail-header p{
+    font-size: 1.8em;
+}
+
+#detail-content{
+    width: 50em;
+    height: 10em;
+    margin-top: 2em;
+}
+
+#detail-content p{
+    padding: 0.5em 2em;
+}
+
+#account-edit{
+    margin-top: 3em;
+    text-align: center;
+    font-size: 0.8em;
+    
+}
+
+#account-edit a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    border: 1.5px solid navy;
+    padding: 0.3em;
+    background-color: lightskyblue;
+}

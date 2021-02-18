@@ -17,7 +17,7 @@
                <li>
                   <?php
                      if(isset($_GET['userEmail']))
-                        echo "<a href='#'><img src='images/icons/user-24.png'>My Account</a>";
+                        echo "<a href=useraccount.php?userEmail=".$_GET['userEmail']."><img src='images/icons/user-24.png'>My Account</a>";
                      else echo "<a href='login.php'><img src='images/icons/user-24.png'> Sign Up/Login</a>";
                   ?>
                </li>

@@ -1,0 +1,31 @@
+html{
+    font-family: 'Quicksand', sans-serif; 
+}
+
+#signup-form-area{
+    border: 2px solid black;
+    width: 30em;
+    height: 30em;
+    margin: 7em auto;
+}
+
+#form-title{
+    font-size: 1em;
+    text-align: center;
+    height: 2em;
+    padding: 1em;
+}
+
+#reg-form{
+    padding: 1em;
+}
+
+#reg-form form{
+    width: 20em;
+    height: 15em;
+    margin: auto;
+}
+
+#reg-form form input,#reg-form form textarea{
+    margin: 0.5em;
+}

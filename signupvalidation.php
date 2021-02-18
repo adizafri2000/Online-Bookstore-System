@@ -1,5 +1,4 @@
 <?php
-    $connect = mysqli_connect("localhost","root","","chunchunmaru");
 
     //require_once("connection.php");
 
