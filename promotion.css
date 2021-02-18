@@ -39,7 +39,11 @@ html{
     border: 1px solid #97CAEF;
     font-weight: bold;
 }
-
 figcaption{
     font-size: 0.7em;
+}
+
+#book1 a,#book2 a,#book3 a{
+    text-decoration: none;
+    color: black;
 }

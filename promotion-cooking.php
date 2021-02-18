@@ -18,22 +18,43 @@
     </div>
     <div id="book-space">
         <div id="book1">
-            <figure>
-            <img src="<?php echo"images/book-cover/cooking/".$row[0]["ISBN"].".jpg";?>" width="80" height="120">
-            <figcaption><?php echo $row[0]["bookName"];?></figcaption>
-            </figure>
+            <a href="<?php 
+                $link = "bookview.php?ISBN=".$row[0]['ISBN'];
+                if (isset($_GET['userEmail']))
+                    $link = $link."&userEmail=".$_GET['userEmail'];
+                echo $link;
+            ?>">
+                <figure>
+                <img src="<?php echo"images/book-cover/cooking/".$row[0]["ISBN"].".jpg";?>" width="80" height="120">
+                <figcaption><?php echo $row[0]["bookName"];?></figcaption>
+                </figure>
+            </a>
         </div>
         <div id="book2">
-            <figure>
-            <img src="<?php echo"images/book-cover/cooking/".$row[1]["ISBN"].".jpg";?>" width="80" height="120">
-            <figcaption><?php echo $row[1]["bookName"];?></figcaption>
-            </figure>
+            <a href="<?php 
+                $link = "bookview.php?ISBN=".$row[1]['ISBN'];
+                if (isset($_GET['userEmail']))
+                    $link = $link."&userEmail=".$_GET['userEmail'];
+                echo $link;
+            ?>">
+                <figure>
+                <img src="<?php echo"images/book-cover/cooking/".$row[1]["ISBN"].".jpg";?>" width="80" height="120">
+                <figcaption><?php echo $row[1]["bookName"];?></figcaption>
+                </figure>
+            </a>
         </div>
         <div id="book3">
-            <figure>
-            <img src="<?php echo"images/book-cover/cooking/".$row[2]["ISBN"].".jpg";?>" width="80" height="120">
-            <figcaption><?php echo $row[2]["bookName"];?></figcaption>
-            </figure>
+            <a href="<?php 
+                $link = "bookview.php?ISBN=".$row[2]['ISBN'];
+                if (isset($_GET['userEmail']))
+                    $link = $link."&userEmail=".$_GET['userEmail'];
+                echo $link;
+            ?>">
+                <figure>
+                <img src="<?php echo"images/book-cover/cooking/".$row[2]["ISBN"].".jpg";?>" width="80" height="120">
+                <figcaption><?php echo $row[2]["bookName"];?></figcaption>
+                </figure>
+            </a>
         </div>
     </div>
 </div>

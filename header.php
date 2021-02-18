@@ -5,7 +5,11 @@
 <div id="header-base">
    <div id="header-top">
       <div id="header-home-hyperlink">
-         <a href="#">Chunchunmaru Bookstore</a>
+         <a href="<?php 
+            if(isset($_GET['userEmail']))
+               echo "home.php?userEmail=".$_GET['userEmail'];
+            else echo "home.php";
+         ?>">Chunchunmaru Bookstore</a>
       </div>
       <div id="header-widgets">
          <nav>

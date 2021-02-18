@@ -11,6 +11,19 @@
         <link href="bookview.css" rel="stylesheet">
     </head>
     <body>
-        <header></header>
+        <header><?php include "header.php" ?></header>
+        <div id="content">
+            <div id="genre-navigation">
+                <?php include "genre-navigation-bar.php";?>
+            </div>
+            <?php
+                if(isset($_GET['ISBN']))
+                    $ISBN = $_GET['ISBN'];
+            ?>
+            <div id="book-section">
+                
+            </div>
+        </div>
+        <footer><?php include "footer.inc.php" ?></footer>
     </body>
 </html>
