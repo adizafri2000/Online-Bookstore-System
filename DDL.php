@@ -53,7 +53,7 @@
         Date_Purchased DATE NOT NULL,
         Total INT NOT NULL,
         PRIMARY KEY (userEmail,ISBN),
-        FOREIGN KEY (userEmail) REFERENCES user (userEmail),
+        FOREIGN KEY (userEmail) REFERENCES user (userEmail) ON UPDATE CASCADE,
         FOREIGN KEY (ISBN) REFERENCES book (ISBN)
     )";
     $result = mysqli_query($connect,$query);
@@ -64,7 +64,7 @@
         ISBN VARCHAR(13) NOT NULL,
         Rating INT,
         PRIMARY KEY (userEmail,ISBN),
-        FOREIGN KEY (userEmail) REFERENCES user (userEmail),
+        FOREIGN KEY (userEmail) REFERENCES user (userEmail) ON UPDATE CASCADE,
         FOREIGN KEY (ISBN) REFERENCES book (ISBN)
     )";
 	
