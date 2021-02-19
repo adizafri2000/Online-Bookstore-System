@@ -2,7 +2,7 @@
 TIS3151 Assignment (Web Application Development)
 
 
-## Desription
+## Description
 An Online Bookstore system for uni assignment. Demonstrates basic e-commerce-related features like login/signup, view items, make purchases etc. Developed with HTML, CSS, and PHP. Tested with Apache server and MySQL via XAMPP.
 
 ## How to Use
