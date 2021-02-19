@@ -36,7 +36,11 @@
                     <p>Email: <?php echo $row['userEmail'];?></p>
                     <p>Username: <?php echo $row['userName'];?></p>
                     <p>Address: <?php echo $row['Address'];?></p>
-                    <p id="account-edit"><a href="<?php echo 'accountedit.php?userEmail='.$row['userEmail'];?>">Edit Account</a></p>
+                    <p id="account-tasks">
+                        <a id="account-edit" href="<?php echo 'accountedit.php?userEmail='.$row['userEmail'];?>">Edit Account</a>
+                        <a id="logout" href="home.php?logout=1">Logout</a>
+                    </p>
+                    
                 </div>
             </div>
             <div id="purchase-history">

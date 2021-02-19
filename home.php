@@ -19,8 +19,11 @@
             window.alert('Transaction success. Redirecting to homepage');
             </script>");
          }
-         $date = date("Y-m-d");
-         echo "<p>".$date."</p>"
+         else if (isset($_GET['logout'])){
+            echo ("<script LANGUAGE='JavaScript'>
+            window.alert('Successfuly logged out. Redirecting to homepage');
+            </script>");
+         }
       ?>
       <div id="content">
          <div id="genre-navigation">

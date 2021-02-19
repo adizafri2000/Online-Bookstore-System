@@ -36,14 +36,13 @@ html{
     padding: 0.5em 2em;
 }
 
-#account-edit{
+#account-tasks{
     margin-top: 3em;
     text-align: center;
     font-size: 0.8em;
-    
 }
 
-#account-edit a{
+#account-tasks a{
     text-decoration: none;
     color: black;
     font-weight: bold;

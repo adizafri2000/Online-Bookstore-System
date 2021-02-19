@@ -45,20 +45,26 @@
                                 <td>".$row['quantity']."</td>
                                 <td>RM".$bookdata['Price']."</td>
                                 <td style='font-weight bold;'>RM".number_format(($row['quantity']*$bookdata['Price']),2)."</td>
-                                <td>Click me to remove this fucker</td>
+                                <td><a href='cartremove.php?userEmail=".$_GET['userEmail']."&ISBN=".$bookdata['ISBN']."'>Remove</a></td>
                             </tr>
                             ";
 
                             $grandtotal+=($row['quantity']*$bookdata['Price']);
                         }
                         echo"</table>";
-                        echo"<p>Grand total: RM".number_format(($grandtotal),2)."</p>";
-                        echo"<p><a href='transaction.php?userEmail=".$_GET['userEmail']."'>Pay</a></p>";
+                        echo"
+                            <div id='payment'>
+                                <p>Grand total: RM".number_format(($grandtotal),2)."</p>
+                                <br>
+                                <p><a href='transaction.php?userEmail=".$_GET['userEmail']."'>Pay</a></p>
+                            </div>
+                        ";
+                        
                     }
 
                     //No items, add something to cart first
                     else{
-                        echo "<p id='notice'>Your cart is empty</p>";
+                        echo "<p id='notice'>Your cart is empty.</p>";
                         $promotions = ["promotion-cooking.php","promotion-fantasy.php","promotion-health.php","promotion-horror.php","promotion-romance.php","promotion-self-help.php","promotion-thriller.php"];
                         $index = rand(0,6);
                         echo "<p id='promote'>Check out these books!</p>";
