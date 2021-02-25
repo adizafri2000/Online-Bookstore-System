@@ -10,7 +10,7 @@
 
     //Existing product in cart
     if($totalrow>0){
-        $query = "Update Cart set quantity=".$_POST['quantity']."where userEmail='".$userEmail."' and ISBN='".$ISBN."'";
+        $query = "Update Cart set quantity=".$_POST['quantity']." where userEmail='".$userEmail."' and ISBN='".$ISBN."'";
     }
     
     //No same products already in cart

@@ -76,11 +76,19 @@
                                 echo "
                                     <form action='cartupdater.php?userEmail=".$_GET['userEmail']."&ISBN=".$row['ISBN']."' method='POST'>
                                         <input type='number' name='quantity' min=".$min." max=".$max.">
-                                        <input type='Submit'>
+                                        <input type='Submit' value='Add to Cart'>
                                     </form>
                                 ";
                                 if(isset($_GET['quantity'])){
                                     echo "<p id='notice'>".$_GET['quantity']." unit(s) already in cart</p>";
+                                }
+                                else{
+                                    $query = "select * from Cart where userEmail='".$_GET['userEmail']."' and ISBN='".$row['ISBN']."'";
+                                    $result = mysqli_query($connect,$query);
+                                    if(mysqli_num_rows($result)>0){
+                                        $result = mysqli_fetch_array($result);
+                                        echo "<p id='notice'>".$result['quantity']." unit(s) already in cart</p>";
+                                    }
                                 }
                             }
                             else{
