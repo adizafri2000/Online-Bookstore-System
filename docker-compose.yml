@@ -3,8 +3,12 @@ version: '3'
 services:
   db:
     image: mysql:8
+    restart: always
+    environment:
+      - MYSQL_ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_ROOT_PASSWORD=
     ports:
-      - 3306:3306
+      - '3306:3306'
 
   app:
     build:
